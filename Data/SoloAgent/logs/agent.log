@@ -388,3 +388,10 @@ response=Hello! How can I assist you today?
 backend=ollama host=http://MONTBLANC:11434 model=nemotron-cascade-2:latest ctx=8192 tools=True
 prompt=create a dataset, with rows named a to z and containing values 1 to 26
 error='No executor is available for tool: run_analysis'
+[2026-06-08T22:38:38.206193+00:00] queue worker started
+[2026-06-08T22:46:50.516370+00:00] queue worker error: [WinError 10054] An existing connection was forcibly closed by the remote host
+[2026-06-08T22:46:55.843251+00:00] queue worker started
+[2026-06-08T23:00:03.440972+00:00] queue worker stopped
+[2026-06-08T23:00:09.095368+00:00] queue worker started
+[2026-06-08T23:08:16.542482+00:00] queue worker started
+[2026-06-08T23:14:42.968889+00:00] queue worker started

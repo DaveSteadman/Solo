@@ -133,6 +133,26 @@ def route_ui():
     return FileResponse(UI_DIR / "index.html")
 
 
+@app.get("/ui/articles/new", include_in_schema=False)
+def route_ui_article_new():
+    return FileResponse(UI_DIR / "index.html")
+
+
+@app.get("/ui/import", include_in_schema=False)
+def route_ui_import():
+    return FileResponse(UI_DIR / "index.html")
+
+
+@app.get("/ui/articles/{title}", include_in_schema=False)
+def route_ui_article(title: str):
+    return FileResponse(UI_DIR / "index.html")
+
+
+@app.get("/ui/articles/{title}/edit", include_in_schema=False)
+def route_ui_article_edit(title: str):
+    return FileResponse(UI_DIR / "index.html")
+
+
 # Articles
 # ---------------------------------------------------------------------------
 

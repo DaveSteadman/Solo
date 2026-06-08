@@ -2129,3 +2129,554 @@ INFO:     127.0.0.1:56904 - "GET /common/assets/icons/graduation-hat-alt-1-svgre
 INFO:     127.0.0.1:53184 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
 INFO:     127.0.0.1:55260 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
 INFO:     127.0.0.1:53027 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62622 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57512 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50823 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64004 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64286 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64225 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64286 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64286 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64225 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64286 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64225 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64225 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64286 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64225 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64286 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52691 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[06/08/26 23:38:32] INFO     StreamableHTTP      streamable_http_manager.py:132
+                             session manager                                   
+                             shutting down                                     
+
+SoloDataGateway: shutting down child services
+  < stopping SoloRAG (pid 41340)
+  < stopping SoloReference (pid 3304)
+  < stopping SoloLibrary (pid 41316)
+  < stopping SoloFeeds (pid 21764)
+INFO:     Application shutdown complete.
+INFO:     Finished server process [25944]
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [18728]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 30516) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 29172) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 21524) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 1396) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 40148) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/08/26 23:38:43] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloGraph ready at http://127.0.0.1:9745
+  > SoloReference ready at http://127.0.0.1:9743
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloLibrary ready at http://127.0.0.1:9741
+[06/08/26 23:38:44] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51799 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64305 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51238 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64305 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64305 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51238 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64305 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51238 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50648 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64305 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51238 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50648 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51238 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57385 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57469 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51799 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[06/08/26 23:46:50] INFO     StreamableHTTP      streamable_http_manager.py:132
+                             session manager                                   
+                             shutting down                                     
+
+SoloDataGateway: shutting down child services
+  < stopping SoloGraph (pid 40148)
+  < stopping SoloRAG (pid 1396)
+  < stopping SoloReference (pid 21524)
+  < stopping SoloLibrary (pid 29172)
+  < stopping SoloFeeds (pid 30516)
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18728]
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [3632]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 8484) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 14228) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 2376) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 14180) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 29200) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/08/26 23:47:00] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloGraph ready at http://127.0.0.1:9745
+  > SoloReference ready at http://127.0.0.1:9743
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloLibrary ready at http://127.0.0.1:9741
+[06/08/26 23:47:01] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60580 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63273 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60118 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63273 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63273 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60118 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60118 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60118 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63273 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60118 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60733 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60118 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63273 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51879 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[06/09/26 00:00:03] INFO     StreamableHTTP      streamable_http_manager.py:132
+                             session manager                                   
+                             shutting down                                     
+
+SoloDataGateway: shutting down child services
+  < stopping SoloRAG (pid 14180)
+  < stopping SoloReference (pid 2376)
+  < stopping SoloFeeds (pid 8484)
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3632]
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [18072]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 12508) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 10628) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 29776) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 32128) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 22372) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/09/26 00:00:14] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloGraph ready at http://127.0.0.1:9745
+  > SoloReference ready at http://127.0.0.1:9743
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloLibrary ready at http://127.0.0.1:9741
+[06/09/26 00:00:15] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63452 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63452 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50675 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63452 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50675 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50675 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63452 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63452 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50675 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63452 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50675 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49965 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58073 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63452 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52473 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63452 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56572 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[06/09/26 00:08:09] INFO     StreamableHTTP      streamable_http_manager.py:132
+                             session manager                                   
+                             shutting down                                     
+
+SoloDataGateway: shutting down child services
+  < stopping SoloReference (pid 29776)
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18072]
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [10308]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 22944) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 38856) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 39472) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 35060) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 27012) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/09/26 00:08:21] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+  > SoloGraph ready at http://127.0.0.1:9745
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloLibrary ready at http://127.0.0.1:9741
+  > SoloReference ready at http://127.0.0.1:9743
+[06/09/26 00:08:22] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51049 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51049 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51781 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51049 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51781 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51049 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51781 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51049 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51781 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51049 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51049 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51781 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57182 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51781 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51049 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52344 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51987 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59393 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[06/09/26 00:14:37] INFO     StreamableHTTP      streamable_http_manager.py:132
+                             session manager                                   
+                             shutting down                                     
+
+SoloDataGateway: shutting down child services
+  < stopping SoloGraph (pid 27012)
+  < stopping SoloRAG (pid 35060)
+  < stopping SoloReference (pid 39472)
+  < stopping SoloLibrary (pid 38856)
+  < stopping SoloFeeds (pid 22944)
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10308]
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [37884]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 39480) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 34720) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 39900) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 1888) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 31804) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/09/26 00:14:47] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+  > SoloGraph ready at http://127.0.0.1:9745
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloLibrary ready at http://127.0.0.1:9741
+  > SoloReference ready at http://127.0.0.1:9743
+[06/09/26 00:14:48] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)

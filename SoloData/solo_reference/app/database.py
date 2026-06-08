@@ -371,6 +371,30 @@ def upsert_article(
                 "INSERT INTO links (from_id, to_title) VALUES (?, ?)",
                 (article_id, lt),
             )
+
+        # Resolve outgoing links for this article immediately when targets exist.
+        active_conn.execute(
+            """
+            UPDATE links
+            SET to_id = (
+                SELECT id FROM articles WHERE lower(title) = lower(links.to_title)
+            )
+            WHERE from_id = ?
+              AND to_id IS NULL
+            """,
+            (article_id,),
+        )
+
+        # Resolve any older unresolved links that point at this article title.
+        active_conn.execute(
+            """
+            UPDATE links
+            SET to_id = ?
+            WHERE to_id IS NULL
+              AND lower(to_title) = lower(?)
+            """,
+            (article_id, title),
+        )
         return article_id
 
     if conn is None:

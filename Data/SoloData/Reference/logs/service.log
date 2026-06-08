@@ -112,3 +112,376 @@ INFO:     127.0.0.1:56735 - "GET /status HTTP/1.1" 200 OK
 INFO:     127.0.0.1:52944 - "GET /status HTTP/1.1" 200 OK
 INFO:     127.0.0.1:65354 - "GET /status HTTP/1.1" 200 OK
 INFO:     127.0.0.1:63564 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63708 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63708 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63708 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63708 - "GET /ui/page.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63708 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51726 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /api/articles?limit=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49152 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49152 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49153 - "GET /ui/articles/new HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3304]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [21524]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51132 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56504 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56504 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60487 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62348 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60976 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56504 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60976 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60487 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62348 - "GET /common/framework/js/text-area.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56504 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /common/framework/js/text-utils.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60976 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60976 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61628 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60976 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56504 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62348 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60487 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61628 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62348 - "GET /common/assets/icons/action.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /ui/articles/new HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49689 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52562 - "POST /api/articles HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52562 - "GET /ui/articles/dfghfd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52562 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52562 - "GET /api/articles/dfghfd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52562 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52562 - "GET /api/articles/dfghfd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52562 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52562 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /api/articles/dfghfd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /ui/articles/dfghfd/edit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /api/articles/dfghfd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /api/articles/dfghfd HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54843 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54843 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51793 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51793 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51793 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51793 - "GET /api/articles/dfghfd HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21524]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [2376]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63936 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54095 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54095 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54095 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54095 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53973 - "GET /ui/articles/new HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53973 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53973 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62223 - "POST /api/articles HTTP/1.1" 201 Created
+INFO:     127.0.0.1:62223 - "GET /ui/articles/test%20article HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62223 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62223 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:62223 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62223 - "GET /api/articles/test%20article HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62223 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "POST /api/articles HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57347 - "GET /ui/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57347 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /api/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /api/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /ui/articles/test%20article2/edit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57347 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57347 - "GET /api/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51040 - "POST /api/articles HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51040 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51040 - "GET /api/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51040 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51040 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51040 - "GET /api/articles/test%20article HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52602 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52602 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52602 - "GET /api/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /ui/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /api/articles/test%20article2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54464 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /api/articles/test%20article HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /ui/articles/test%20article/edit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54464 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54464 - "GET /api/articles/test%20article HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52313 - "GET /ui/articles/test%20article/edit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52313 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52313 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52313 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52313 - "GET /api/articles/test%20article HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51013 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51013 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51013 - "GET /api/articles/test%20article HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51591 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     Shutting down
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [29776]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60993 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49766 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49766 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63935 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63935 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63935 - "GET /ui/import HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63935 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "POST /api/import/kiwix/crawl HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /ui/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51184 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64692 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:64692 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64692 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64719 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51351 - "GET /ui/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51351 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51351 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51351 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50294 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50294 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50294 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50294 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64194 - "GET /ui/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64194 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64194 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64194 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63949 - "GET /ui/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63949 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63949 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63949 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63508 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63508 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63508 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63508 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63508 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52532 - "POST /api/import/kiwix/crawl HTTP/1.1" 422 Unprocessable Content
+INFO:     Shutting down
+INFO:     Waiting for background tasks to complete. (CTRL+C to force quit)
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [39472]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52620 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52674 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52674 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /api/articles/Algorithm HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /ui/articles/Computation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51621 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51621 - "GET /api/articles/Computation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59619 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59619 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50920 - "POST /api/import/kiwix/crawl HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:64183 - "POST /api/import/kiwix/crawl HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:57845 - "POST /api/import/kiwix/crawl HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57845 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49787 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:49787 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:49787 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /ui/articles/Abacus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/articles/Abacus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /ui/articles/hand HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/articles/hand HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65180 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/articles/Abacus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /ui/articles/calculators HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/articles/calculators HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65180 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/articles/Abacus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /ui/articles/digit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/articles/digit HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65180 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65180 - "GET /api/articles/Abacus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63836 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63836 - "GET /ui/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63836 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:63836 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63836 - "GET /api/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63836 - "GET /ui/articles/computer HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63836 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63836 - "GET /api/articles/computer HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58872 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58872 - "GET /api/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57682 - "GET /api/articles/Algorithm/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /ui/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/articles/Ada%20Lovelace/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /ui/articles/William%20King HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/articles/William%20King HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62167 - "GET /api/articles/William%20King/links HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62167 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/articles/Ada%20Lovelace/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /ui/articles/Analytical%20Engine HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54034 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/articles/Analytical%20Engine/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/articles/Analytical%20Engine HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54034 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54034 - "GET /api/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62167 - "GET /api/articles/Ada%20Lovelace/links HTTP/1.1" 200 OK
+INFO:     Shutting down
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [39900]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54141 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63982 - "GET /ui/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63982 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63982 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63982 - "GET /api/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58517 - "GET /api/articles/Ada%20Lovelace/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58517 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58517 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58517 - "GET /api/articles/Analytical%20Engine HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50378 - "GET /api/articles/Analytical%20Engine/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50378 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50378 - "GET /api/articles/Ada%20Lovelace HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58517 - "GET /api/articles/Ada%20Lovelace/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58517 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58517 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55883 - "GET /ui/import HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55883 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55883 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "POST /api/import/kiwix/crawl HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59580 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /ui/articles/2D%20computer%20graphics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/articles/2D%20computer%20graphics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/articles/2D%20computer%20graphics/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /ui/articles/computer%20science HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/articles/computer%20science HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/articles/computer%20science/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59580 - "GET /api/articles/2D%20computer%20graphics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61877 - "GET /api/articles/2D%20computer%20graphics/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53794 - "GET /ui/articles/object-oriented%20programming HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53794 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53794 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53794 - "GET /api/articles/object-oriented%20programming HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50428 - "GET /api/articles/object-oriented%20programming/links HTTP/1.1" 200 OK
