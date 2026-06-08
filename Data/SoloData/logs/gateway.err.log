@@ -1,0 +1,94 @@
+INFO:     Started server process [15436]
+INFO:     Waiting for application startup.
+[06/08/26 08:44:14] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 08:44:15] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+[06/08/26 08:44:31] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 08:44:32] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 08:44:56] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+[06/08/26 08:45:07] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/api/search?q                
+                             =solo_gateway_verification_080844&                
+                             limit=5 "HTTP/1.0 200 OK"                         
+[06/08/26 08:45:25] INFO     Terminating session: None   streamable_http.py:785
+                    INFO     Terminating session: None   streamable_http.py:785
+                    INFO     Processing request of type           server.py:727
+                             ListToolsRequest                                  
+                    INFO     Terminating session: None   streamable_http.py:785
+                    INFO     Terminating session: None   streamable_http.py:785
+                    INFO     Terminating session: None   streamable_http.py:785
+                    INFO     Processing request of type           server.py:727
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/api/search?q                
+                             =Wuthering&limit=2 "HTTP/1.0 200                  
+                             OK"                                               
+                    INFO     Terminating session: None   streamable_http.py:785
+                    INFO     Processing request of type           server.py:727
+                             ListToolsRequest                                  
+                    INFO     Terminating session: None   streamable_http.py:785

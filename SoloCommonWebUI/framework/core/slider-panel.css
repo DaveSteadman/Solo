@@ -1,0 +1,171 @@
+:root {
+    --slider-panel-left: 33.333;
+    --slider-panel-right: 66.666;
+    --slider-panel-divider-width: 10px;
+    --slider-panel-min-pane: 160px;
+}
+
+.page-shell--slider-full {
+    height: calc(100vh - var(--header-height) - (var(--layout-gap) * 2));
+    margin-top: var(--layout-gap);
+    padding: 0 var(--layout-gap) var(--layout-gap);
+    overflow: hidden;
+}
+
+.slider-panel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+    border: 1px solid var(--layout-line);
+    border-radius: var(--control-border-radius);
+    background: var(--layout-surface);
+}
+
+.slider-panel-panes {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-panel-panes--three {
+    display: grid;
+    grid-template-columns:
+        minmax(var(--slider-panel-min-pane), calc(var(--slider-panel-left) * 1%))
+        var(--slider-panel-divider-width)
+        minmax(var(--slider-panel-min-pane), calc((var(--slider-panel-right) - var(--slider-panel-left)) * 1%))
+        var(--slider-panel-divider-width)
+        minmax(var(--slider-panel-min-pane), calc((100 - var(--slider-panel-right)) * 1%));
+}
+
+.slider-panel-panes--two {
+    display: grid;
+    grid-template-columns:
+        minmax(var(--slider-panel-min-pane), calc(var(--slider-panel-left) * 1%))
+        var(--slider-panel-divider-width)
+        minmax(var(--slider-panel-min-pane), calc((100 - var(--slider-panel-left)) * 1%));
+}
+
+.slider-panel-pane {
+    display: grid;
+    grid-template-rows: var(--panel-title-height) minmax(0, 1fr);
+    min-width: 0;
+    min-height: 0;
+    background: var(--layout-surface);
+}
+
+.slider-panel-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--layout-gap);
+    min-width: 0;
+    min-height: var(--panel-title-height);
+    padding-inline: var(--layout-gap);
+    border-bottom: 1px solid var(--layout-line);
+    background: var(--layout-surface);
+}
+
+.slider-panel-title-row h2 {
+    min-width: 0;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.slider-panel-title-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.slider-panel-title-actions:empty {
+    display: none;
+}
+
+.slider-panel-body {
+    min-width: 0;
+    min-height: 0;
+    padding: var(--layout-gap);
+    overflow: hidden;
+}
+
+.slider-panel-body--flush {
+    padding: 0;
+}
+
+.slider-panel-body--scroll {
+    overflow: auto;
+    scrollbar-color: var(--control-border-color) var(--layout-surface);
+    scrollbar-width: thin;
+}
+
+.slider-panel-body--scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slider-panel-body--scroll::-webkit-scrollbar-track {
+    background: var(--layout-surface);
+}
+
+.slider-panel-body--scroll::-webkit-scrollbar-thumb {
+    border: 2px solid var(--layout-surface);
+    border-radius: var(--control-border-radius);
+    background: var(--control-border-color);
+}
+
+.slider-panel-divider {
+    position: relative;
+    z-index: 2;
+    width: var(--slider-panel-divider-width);
+    min-width: var(--slider-panel-divider-width);
+    height: 100%;
+    border-inline: 1px solid var(--layout-line);
+    background: var(--layout-surface-subtle);
+    cursor: col-resize;
+    touch-action: none;
+}
+
+.slider-panel-divider::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 2px;
+    margin-inline: auto;
+    background: var(--control-border-color);
+    opacity: 0.72;
+}
+
+.slider-panel-divider:hover,
+.slider-panel-divider.is-dragging {
+    background: color-mix(in srgb, var(--control-border-color) 12%, var(--layout-surface-subtle));
+}
+
+.slider-panel-divider:hover::before,
+.slider-panel-divider.is-dragging::before {
+    opacity: 1;
+}
+
+.slider-panel.is-dragging,
+.slider-panel.is-dragging * {
+    user-select: none;
+}
+
+@media (max-width: 700px) {
+    :root {
+        --slider-panel-min-pane: 96px;
+        --slider-panel-divider-width: 12px;
+    }
+
+    .page-shell--slider-full {
+        overflow-x: auto;
+    }
+
+    .slider-panel {
+        min-width: 520px;
+    }
+}

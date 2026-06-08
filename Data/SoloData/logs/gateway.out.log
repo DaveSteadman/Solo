@@ -1,0 +1,32 @@
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 22124) log -> C:\Util\GithubRepos\Solo\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 16504) log -> C:\Util\GithubRepos\Solo\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 36376) log -> C:\Util\GithubRepos\Solo\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 36572) log -> C:\Util\GithubRepos\Solo\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 4396) log -> C:\Util\GithubRepos\Solo\Data\SoloData\Graph\logs\service.log
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloReference ready at http://127.0.0.1:9743
+  > SoloGraph ready at http://127.0.0.1:9745
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloLibrary ready at http://127.0.0.1:9741
+INFO:     127.0.0.1:49728 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49724 - "GET /api/search?q=solo_gateway_verification_080844&limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49793 - "GET /api/search?q=solo_gateway_verification_080844&limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57282 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57300 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57300 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57301 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57301 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57302 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57302 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57303 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57303 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57304 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57304 - "POST /mcp/ HTTP/1.1" 202 Accepted
+INFO:     127.0.0.1:57305 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57305 - "POST /mcp/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57307 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57307 - "POST /mcp/ HTTP/1.1" 200 OK

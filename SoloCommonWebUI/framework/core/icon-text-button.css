@@ -1,0 +1,9 @@
+.icon-text-button {
+    gap: 8px;
+}
+
+.icon-text-button .button-icon {
+    flex: 0 0 auto;
+    width: var(--control-icon-size);
+    height: var(--control-icon-size);
+}

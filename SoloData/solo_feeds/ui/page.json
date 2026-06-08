@@ -1,0 +1,50 @@
+{
+  "header": {
+    "title": "SoloFeeds",
+    "subtitle": "Domains, feed schedules and full text retrieval",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#63d9a4", "action": "refresh" }
+    ]
+  },
+  "shell": { "fullWidth": true },
+  "content": [
+    {
+      "type": "panels",
+      "items": [
+        {
+          "title": "Domains",
+          "items": [
+            { "type": "feedDomains" }
+          ]
+        },
+        {
+          "title": "Create Domain",
+          "items": [
+            { "type": "feedCreateDomain" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Search",
+      "items": [
+        { "type": "feedSearch" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Feed Status",
+      "items": [
+        { "type": "feedTable" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Recent Entries",
+      "items": [
+        { "type": "feedEntries" }
+      ]
+    }
+  ]
+}

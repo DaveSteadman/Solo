@@ -1,0 +1,62 @@
+{
+  "header": {
+    "title": "SoloAgent",
+    "subtitle": "Agent orchestration over SoloLLM, copied skills and MCP tools",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#78b0ff", "action": "refresh" },
+      { "type": "iconTextButton", "icon": "action", "text": "Run", "color": "#63d9a4", "action": "runPrompt" }
+    ]
+  },
+  "shell": {
+    "fullWidth": true,
+    "viewport": true
+  },
+  "content": [
+    {
+      "type": "panel",
+      "className": "page-panel--single-row",
+      "items": [
+        { "type": "modelStatusPanel" }
+      ]
+    },
+    {
+      "type": "panels",
+      "columns": 2,
+      "resizable": true,
+      "left": 36,
+      "minPanelPixels": 300,
+      "storageKey": "soloagent.main-panels",
+      "items": [
+        {
+          "type": "panelStack",
+          "viewport": true,
+          "items": [
+            {
+              "type": "panel",
+              "title": "Running Log",
+              "viewport": true,
+              "actions": [
+                { "type": "textButton", "text": "Live", "color": "#63d9a4", "action": "toggleLive" },
+                { "type": "textButton", "text": "Wrap", "color": "#78b0ff", "action": "toggleWrap" },
+                { "type": "iconButton", "icon": "arrowUp", "label": "Top", "color": "#f6c177", "action": "logTop" },
+                { "type": "iconButton", "icon": "arrowDown", "label": "Bottom", "color": "#f6c177", "action": "logBottom" }
+              ],
+              "items": [
+                { "type": "agentLogPanel" }
+              ]
+            },
+            { "type": "agentQueuePanel" }
+          ]
+        },
+        {
+          "type": "panel",
+          "title": "Chat Exchange",
+          "viewport": true,
+          "items": [
+            { "type": "agentChatPanel" }
+          ]
+        }
+      ]
+    }
+  ]
+}

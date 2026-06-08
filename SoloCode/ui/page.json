@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "SoloCode",
+    "subtitle": "Local coding agent, workspace explorer and SoloChat bridge",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#78b0ff", "action": "refresh" },
+      { "type": "iconTextButton", "icon": "chat", "text": "Send prompt", "color": "#63d9a4", "action": "sendPrompt" }
+    ]
+  },
+  "shell": {
+    "fullWidth": true,
+    "viewport": true,
+    "viewportLock": true
+  },
+  "content": [
+    {
+      "type": "panels",
+      "columns": 3,
+      "resizable": true,
+      "first": 24,
+      "second": 68,
+      "minPanelPixels": 220,
+      "storageKey": "solocode.main-panels",
+      "stretch": true,
+      "items": [
+        {
+          "type": "panel",
+          "title": "Explorer",
+          "viewport": true,
+          "items": [
+            { "type": "codeWorkspacePanel" }
+          ]
+        },
+        {
+          "type": "panel",
+          "title": "Code View",
+          "viewport": true,
+          "actions": [
+            { "type": "textButton", "text": "Save", "color": "#63d9a4", "action": "saveFile" },
+            { "type": "textButton", "text": "Reload", "color": "#78b0ff", "action": "reloadFile" }
+          ],
+          "items": [
+            { "type": "codeView" }
+          ]
+        },
+        {
+          "type": "panel",
+          "title": "Chat",
+          "viewport": true,
+          "actions": [
+            { "type": "textButton", "text": "Refresh", "color": "#78b0ff", "action": "refreshChat" }
+          ],
+          "items": [
+            { "type": "codeChat" }
+          ]
+        }
+      ]
+    }
+  ]
+}

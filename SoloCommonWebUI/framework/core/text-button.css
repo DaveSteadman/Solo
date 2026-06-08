@@ -1,0 +1,33 @@
+.text-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: var(--control-row-height);
+    height: var(--control-row-height);
+    padding: 0 var(--control-padding-inline);
+    border: var(--control-border-width) solid var(--control-accent);
+    border-radius: var(--control-border-radius);
+    color: var(--control-accent);
+    background: var(--control-background);
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.text-button:hover {
+    background: color-mix(in srgb, var(--control-accent) 10%, transparent);
+}
+
+.text-button:active {
+    background: color-mix(in srgb, var(--control-accent) 16%, transparent);
+}
+
+.text-button:focus-visible {
+    border-color: var(--control-border-color-focus);
+    outline: none;
+}
+
+.text-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.56;
+}

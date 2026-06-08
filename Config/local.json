@@ -1,0 +1,15 @@
+{
+  "comment": "Local overrides. Put only the values that differ from factory-default.json here.",
+  "paths": {},
+  "services": {
+    "soloagent": {
+      "llm": {
+        "backend": "ollama",
+        "host": "http://MONTBLANC:11434",
+        "model": "nemotron-cascade-2:latest",
+        "contextSize": 100000,
+        "maxToolRounds": 8
+      }
+    }
+  }
+}

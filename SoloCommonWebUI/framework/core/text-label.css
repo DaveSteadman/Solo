@@ -1,0 +1,12 @@
+.text-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--control-row-height);
+    padding: 0 var(--control-padding-inline);
+    border: var(--control-border-width) solid var(--control-accent);
+    border-radius: calc(var(--control-row-height) / 2);
+    color: var(--control-accent);
+    background: var(--control-background);
+    white-space: nowrap;
+}

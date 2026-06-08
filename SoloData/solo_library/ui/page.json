@@ -1,0 +1,113 @@
+{
+  "pages": {
+    "catalog": {
+      "header": {
+        "title": "SoloLibrary",
+        "subtitle": "Book catalogs backed by SQLite databases",
+        "actions": [
+          { "type": "iconTextButton", "icon": "library", "text": "Books", "color": "#63d9a4", "action": "goCatalog" },
+          { "type": "iconTextButton", "icon": "preview", "text": "Search", "color": "#78b0ff", "action": "goSearch" },
+          { "type": "iconTextButton", "icon": "export", "text": "Import", "color": "#f6c177", "action": "goImport" },
+          { "type": "iconTextButton", "icon": "action", "text": "Refresh", "color": "#78b0ff", "action": "refresh" }
+        ]
+      },
+      "shell": { "fullWidth": true },
+      "content": [
+        {
+          "type": "panel",
+          "title": "Books",
+          "actions": [
+            { "type": "textButton", "text": "Search", "color": "#78b0ff", "action": "goSearch" },
+            { "type": "textButton", "text": "Import", "color": "#f6c177", "action": "goImport" }
+          ],
+          "items": [
+            { "type": "libraryCatalog" }
+          ]
+        }
+      ]
+    },
+    "search": {
+      "header": {
+        "title": "Search",
+        "subtitle": "Find books across catalog metadata and body text",
+        "actions": [
+          { "type": "iconTextButton", "icon": "library", "text": "Books", "color": "#63d9a4", "action": "goCatalog" },
+          { "type": "iconTextButton", "icon": "export", "text": "Import", "color": "#f6c177", "action": "goImport" }
+        ]
+      },
+      "shell": { "fullWidth": true },
+      "content": [
+        {
+          "type": "panel",
+          "title": "Search books",
+          "items": [
+            { "type": "librarySearch" }
+          ]
+        }
+      ]
+    },
+    "import": {
+      "header": {
+        "title": "Import",
+        "subtitle": "Manual and Kiwix book import",
+        "actions": [
+          { "type": "iconTextButton", "icon": "library", "text": "Books", "color": "#63d9a4", "action": "goCatalog" },
+          { "type": "iconTextButton", "icon": "preview", "text": "Search", "color": "#78b0ff", "action": "goSearch" }
+        ]
+      },
+      "shell": { "fullWidth": true },
+      "content": [
+        {
+          "type": "panel",
+          "title": "Import",
+          "items": [
+            { "type": "libraryAddBook" }
+          ]
+        }
+      ]
+    },
+    "read": {
+      "header": {
+        "title": "Read",
+        "subtitle": "Book body and metadata",
+        "actions": [
+          { "type": "iconTextButton", "icon": "library", "text": "Books", "color": "#63d9a4", "action": "goCatalog" },
+          { "type": "iconTextButton", "icon": "preview", "text": "Search", "color": "#78b0ff", "action": "goSearch" },
+          { "type": "iconTextButton", "icon": "tag", "text": "Edit", "color": "#f6c177", "action": "goEditBook" }
+        ]
+      },
+      "shell": { "fullWidth": true, "viewport": true },
+      "content": [
+        {
+          "type": "panel",
+          "title": "{book.title}",
+          "viewport": true,
+          "items": [
+            { "type": "libraryRead" }
+          ]
+        }
+      ]
+    },
+    "edit": {
+      "header": {
+        "title": "Edit",
+        "subtitle": "Update book metadata and body text",
+        "actions": [
+          { "type": "iconTextButton", "icon": "library", "text": "Books", "color": "#63d9a4", "action": "goCatalog" },
+          { "type": "iconTextButton", "icon": "preview", "text": "Read", "color": "#78b0ff", "action": "goReadBook" }
+        ]
+      },
+      "shell": { "fullWidth": true, "viewport": true },
+      "content": [
+        {
+          "type": "panel",
+          "title": "Editing {book.route_id}",
+          "viewport": true,
+          "items": [
+            { "type": "libraryEditBook" }
+          ]
+        }
+      ]
+    }
+  }
+}

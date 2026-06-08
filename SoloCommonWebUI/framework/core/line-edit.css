@@ -1,0 +1,29 @@
+.line-edit {
+    display: inline-flex;
+    width: 100%;
+    min-width: 0;
+    height: var(--control-row-height);
+    padding: var(--control-padding-block) var(--control-padding-inline);
+    border: var(--control-border-width) solid var(--control-border-color);
+    border-radius: var(--control-border-radius);
+    color: var(--layout-ink);
+    background: var(--control-background);
+}
+
+.line-edit::placeholder {
+    color: var(--layout-muted);
+}
+
+.line-edit:hover {
+    background: var(--layout-surface-subtle);
+}
+
+.line-edit:focus {
+    border-color: var(--control-border-color-focus);
+    outline: none;
+}
+
+.line-edit:disabled {
+    cursor: not-allowed;
+    opacity: 0.56;
+}

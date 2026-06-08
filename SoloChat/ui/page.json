@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "SoloChat",
+    "subtitle": "Shared conversation state, prompt intake and LLM thread assembly",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#78b0ff", "action": "refresh" },
+      { "type": "iconTextButton", "icon": "chat", "text": "New conversation", "color": "#63d9a4", "action": "newConversation" }
+    ]
+  },
+  "shell": {
+    "fullWidth": true,
+    "viewport": true,
+    "viewportLock": true
+  },
+  "content": [
+    {
+      "type": "panels",
+      "columns": 2,
+      "resizable": true,
+      "left": 28,
+      "minPanelPixels": 260,
+      "storageKey": "solochat.main-panels",
+      "items": [
+        {
+          "type": "panel",
+          "title": "Chats",
+          "viewport": true,
+          "className": "page-panel--scroll",
+          "items": [
+            { "type": "chatSelectionList" }
+          ]
+        },
+        {
+          "type": "panel",
+          "title": "Chat Details",
+          "viewport": true,
+          "className": "page-panel--scroll",
+          "items": [
+            { "type": "chatDetailSelectionPrompt" },
+            { "type": "chatDetailMetadata" },
+            { "type": "chatDetailCompose" },
+            { "type": "chatDetailBackgroundContext" },
+            { "type": "chatDetailThreadSummary" },
+            { "type": "chatDetailScratchpad" },
+            { "type": "chatDetailDatasets" },
+            { "type": "chatDetailInputHistory" },
+            { "type": "chatDetailMessages" },
+            { "type": "chatDetailEvents" }
+          ]
+        }
+      ]
+    }
+  ]
+}

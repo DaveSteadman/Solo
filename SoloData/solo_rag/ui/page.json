@@ -1,0 +1,50 @@
+{
+  "header": {
+    "title": "SoloRAG",
+    "subtitle": "Chunk databases and full text retrieval",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#c4a7ff", "action": "refresh" }
+    ]
+  },
+  "shell": { "fullWidth": true },
+  "content": [
+    {
+      "type": "panels",
+      "items": [
+        {
+          "title": "Status",
+          "items": [
+            { "type": "ragStatus" }
+          ]
+        },
+        {
+          "title": "Paths",
+          "items": [
+            { "type": "ragPaths" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Search",
+      "items": [
+        { "type": "ragSearch" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Databases",
+      "items": [
+        { "type": "ragDatabases" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Recent Chunks",
+      "items": [
+        { "type": "ragChunks" }
+      ]
+    }
+  ]
+}

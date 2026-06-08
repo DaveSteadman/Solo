@@ -1,0 +1,68 @@
+{
+  "shell": {
+    "fullWidth": true,
+    "className": "page-shell--slider-full"
+  },
+  "header": {
+    "title": "SoloTemplate",
+    "subtitle": "Slider panel layout"
+  },
+  "content": [
+    {
+      "type": "sliderPanel",
+      "label": "Resizable three panel layout",
+      "storageKey": "koreagent.sliderPanel.layout",
+      "left": 33.333,
+      "right": 66.666,
+      "panes": [
+        {
+          "label": "Left panel",
+          "title": "Agent",
+          "flush": true,
+          "items": [
+            {
+              "type": "fileExplorer",
+              "label": "KoreAgent files",
+              "fileSelectAction": "openFile",
+              "openFolders": ["KoreAgent", "KoreAgent/ui", "KoreAgent/core"],
+              "selectedPath": "KoreAgent/ui/agent_panel.py",
+              "itemsJson": "[{\"type\":\"folder\",\"name\":\"KoreAgent\",\"path\":\"KoreAgent\",\"children\":[{\"type\":\"folder\",\"name\":\"core\",\"path\":\"KoreAgent/core\",\"children\":[{\"type\":\"file\",\"name\":\"agent.py\",\"path\":\"KoreAgent/core/agent.py\"},{\"type\":\"file\",\"name\":\"conversation.py\",\"path\":\"KoreAgent/core/conversation.py\"}]},{\"type\":\"folder\",\"name\":\"ui\",\"path\":\"KoreAgent/ui\",\"children\":[{\"type\":\"file\",\"name\":\"agent_panel.py\",\"path\":\"KoreAgent/ui/agent_panel.py\"},{\"type\":\"file\",\"name\":\"chat_view.py\",\"path\":\"KoreAgent/ui/chat_view.py\"},{\"type\":\"file\",\"name\":\"file_explorer.py\",\"path\":\"KoreAgent/ui/file_explorer.py\"}]},{\"type\":\"file\",\"name\":\"main.py\",\"path\":\"KoreAgent/main.py\"},{\"type\":\"file\",\"name\":\"README.txt\",\"path\":\"KoreAgent/README.txt\"}]}]"
+            }
+          ]
+        },
+        {
+          "label": "Center panel",
+          "title": "Conversation",
+          "flush": true,
+          "actions": [
+            { "type": "textButton", "text": "New", "color": "#63d9a4" },
+            { "type": "textButton", "text": "Clear", "color": "#ff8fab" }
+          ],
+          "items": [
+            {
+              "type": "codeEditor",
+              "label": "Conversation code editor",
+              "code": "class KoreAgentPanel:\n    def __init__(self, conversation):\n        self.conversation = conversation\n        self.ready = True\n\n    async def run(self):\n        if not self.ready:\n            return None\n\n        for turn in self.conversation.turns:\n            await self.handle(turn)\n\n        return \"complete\"\n\n    async def handle(self, turn):\n        # Center panel content will live here.\n        return turn"
+            }
+          ]
+        },
+        {
+          "label": "Right panel",
+          "title": "Context",
+          "flush": true,
+          "actions": [
+            { "type": "textButton", "text": "Load", "color": "#78b0ff" },
+            { "type": "textButton", "text": "Save", "color": "#f6c177" }
+          ],
+          "items": [
+            {
+              "type": "chatExchange",
+              "label": "KoreAgent chat exchange",
+              "messagesJson": "[{\"role\":\"agent\",\"label\":\"Agent\",\"text\":\"KoreAgent is ready. What would you like to work on?\"},{\"role\":\"user\",\"label\":\"User\",\"text\":\"Set up the slider panel template with reusable controls.\"},{\"role\":\"agent\",\"label\":\"Agent\",\"text\":\"The slider panel now comes from JSON and shared SoloCommonWebUI controls.\"},{\"role\":\"user\",\"label\":\"User\",\"text\":\"Add an editable code editor in the center pane.\"},{\"role\":\"agent\",\"label\":\"Agent\",\"text\":\"Done. The center pane uses the shared code editor control with line numbers and syntax highlighting.\"},{\"role\":\"user\",\"label\":\"User\",\"text\":\"Now add this chat exchange in the right pane.\"},{\"role\":\"agent\",\"label\":\"Agent\",\"text\":\"This right pane is now populated from a JSON structured message string.\"}]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

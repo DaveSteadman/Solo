@@ -1,0 +1,15 @@
+.tab-row {
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid var(--layout-line);
+    padding-bottom: 8px;
+}
+
+.tab-button {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.tab-button.is-active {
+    background: color-mix(in srgb, var(--control-accent) 12%, transparent);
+}

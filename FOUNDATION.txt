@@ -1,0 +1,31 @@
+Project Name: Solo
+
+Purpose: An LLM agent framework
+
+Anchoring Statements:
+- Markdown is banned - Plain text, JSON and HTML are the text files available.
+- All UI must be an implementation of a SoloCommonWebUI framework
+- Every file has a header that describes the contents, clarifying the files purpose
+- Every file has am open source (MIT) license header
+
+Aspriational statements:
+- Minimal external dependencies
+- Local LLM and data
+
+Sub processes:
+- SoloHub:   Process launcher and config
+- SoloAgent: Main agent and orchestration
+- SoloChat:  Conversations and associated data as a first class data structure
+- SoloLLM:   Wrapper for LLM calls and multiple server types
+- SoloData:  Internet access and general agent data source
+- SoloDocs:  Agent prompt outputs and editable documents
+- SoloCode:  Agentic code editor using the local LLM
+
+Code:
+- The SoloCommonWebUI folder defines all UI code in a common reusable way. It is probihited for an agent to craft bespoke UI code as it will not match the prevailing style or remain constsent when other updates are applied.
+- Vertically align code and lists whenever possible.
+
+
+
+
+

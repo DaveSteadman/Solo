@@ -1,0 +1,196 @@
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51058)
+Traceback (most recent call last):
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Util\GithubRepos\Solo\SoloChat\main.py", line 833, in do_GET
+    send_json(self, self.store_ref.snapshot())
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\GithubRepos\Solo\SoloData\common_utils\web.py", line 34, in send_json
+    handler.wfile.write(body)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo_wc\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo_wc\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo_wc\Data\SoloChat
+SoloChat: http://127.0.0.1:9720/
+SoloChat status: http://127.0.0.1:9720/status
+SoloChat data: C:\Util\GithubRepos\Solo_wc\Data\SoloChat
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51140)
+Traceback (most recent call last):
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloChat\main.py", line 833, in do_GET
+    send_json(self, self.store_ref.snapshot())
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloData\common_utils\web.py", line 34, in send_json
+    handler.wfile.write(body)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57194)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50374)
+Traceback (most recent call last):
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloChat\main.py", line 946, in do_GET
+    serve_bounded_file(self, COMMON_UI_DIR, path.removeprefix("/common/"))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloData\common_utils\web.py", line 43, in serve_bounded_file
+    serve_file(handler, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+----------------------------------------
+  File "C:\Util\GithubRepos\Solo_wc\SoloData\common_utils\web.py", line 56, in serve_file
+    handler.wfile.write(body)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+Exception occurred during processing of request from ('127.0.0.1', 54980)
+Traceback (most recent call last):
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+----------------------------------------
+  File "C:\Util\Python3-14\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloChat\main.py", line 946, in do_GET
+    serve_bounded_file(self, COMMON_UI_DIR, path.removeprefix("/common/"))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloData\common_utils\web.py", line 43, in serve_bounded_file
+    serve_file(handler, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloData\common_utils\web.py", line 56, in serve_file
+    handler.wfile.write(body)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+Traceback (most recent call last):
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+----------------------------------------
+  File "C:\Util\Python3-14\Lib\http\server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Util\Python3-14\Lib\http\server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloChat\main.py", line 946, in do_GET
+    serve_bounded_file(self, COMMON_UI_DIR, path.removeprefix("/common/"))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloData\common_utils\web.py", line 43, in serve_bounded_file
+    serve_file(handler, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Util\GithubRepos\Solo_wc\SoloData\common_utils\web.py", line 56, in serve_file
+    handler.wfile.write(body)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Util\Python3-14\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------

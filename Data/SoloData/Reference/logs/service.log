@@ -1,0 +1,114 @@
+SoloReference: http://127.0.0.1:9743/ui
+SoloReference: http://127.0.0.1:9743/ui
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [21776]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50852 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52867 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64571 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63742 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64571 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63742 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52867 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52867 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63742 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64571 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52867 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54830 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51035 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63742 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64571 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56787 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61828 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61658 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63438 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51504 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64479 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64385 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52008 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60893 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51346 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58218 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55286 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64515 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21776]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [35220]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53421 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55381 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49210 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54473 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56789 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64475 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57583 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51304 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64404 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61467 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57760 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63159 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53649 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65529 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49732 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58656 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51597 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58640 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57557 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56891 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51064 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64753 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59436 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57511 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58106 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50305 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59987 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51702 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49271 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57555 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54101 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61541 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65241 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54035 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65314 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62908 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50937 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49375 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56591 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56591 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56591 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [35220]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [3304]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56735 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52944 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65354 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63564 - "GET /status HTTP/1.1" 200 OK

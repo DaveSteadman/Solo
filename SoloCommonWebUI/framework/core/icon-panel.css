@@ -1,0 +1,98 @@
+.icon-panel-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--icon-panel-min-width, var(--panel-min-width))), 1fr));
+    gap: var(--layout-gap);
+    align-items: start;
+}
+
+.icon-panel {
+    display: flex;
+    min-width: 0;
+    min-height: 180px;
+    flex-direction: column;
+    gap: 8px;
+    padding: var(--layout-gap);
+    border: 1px solid var(--layout-line);
+    border-left: 3px solid var(--icon-panel-accent);
+    border-radius: var(--control-border-radius);
+    background: var(--layout-surface-subtle);
+}
+
+.icon-panel-banner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: calc(var(--layout-gap) * -1) calc(var(--layout-gap) * -1) 0;
+    padding: 8px var(--layout-gap);
+    border-bottom: 1px solid var(--layout-line);
+    background: color-mix(in srgb, var(--icon-panel-accent) 9%, transparent);
+}
+
+.icon-panel-icon {
+    display: grid;
+    width: 22px;
+    height: 22px;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid var(--icon-panel-accent);
+    color: var(--icon-panel-accent);
+}
+
+.icon-panel-icon .button-icon {
+    width: var(--control-icon-size);
+    height: var(--control-icon-size);
+}
+
+.icon-panel-title-block,
+.icon-panel-meta {
+    display: grid;
+    gap: 2px;
+    min-width: 0;
+}
+
+.icon-panel-overline {
+    color: var(--icon-panel-accent);
+}
+
+.icon-panel-title {
+    color: var(--layout-ink);
+}
+
+.icon-panel-description {
+    min-height: 30px;
+    margin: 0;
+    color: var(--layout-muted);
+}
+
+.icon-panel-meta-row {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-panel-meta-key {
+    min-width: 58px;
+    color: var(--layout-muted);
+}
+
+.icon-panel-meta-value {
+    color: var(--layout-ink);
+    overflow-wrap: anywhere;
+}
+
+.icon-panel-body {
+    display: grid;
+    gap: 8px;
+}
+
+.icon-panel-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+    padding-top: 8px;
+    border-top: 1px solid var(--layout-line);
+}
+
+.icon-panel + .control-demo-row {
+    margin-top: var(--layout-gap);
+}

@@ -1,0 +1,60 @@
+{
+  "header": {
+    "title": "SoloData",
+    "subtitle": "Data gateway, service health and unified search",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#78b0ff", "action": "refresh" }
+    ]
+  },
+  "shell": { "fullWidth": true },
+  "content": [
+    {
+      "type": "panel",
+      "title": "Services",
+      "actions": [
+        { "type": "textButton", "text": "Refresh", "color": "#63d9a4", "action": "refresh" }
+      ],
+      "items": [
+        { "type": "dataServiceGrid" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Search",
+      "items": [
+        { "type": "dataUnifiedSearch" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Search guide",
+      "items": [
+        { "type": "dataSearchGuide" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Results",
+      "items": [
+        { "type": "dataSearchResults" }
+      ]
+    },
+    {
+      "type": "panels",
+      "items": [
+        {
+          "title": "Summary",
+          "items": [
+            { "type": "dataSummary" }
+          ]
+        },
+        {
+          "title": "Paths",
+          "items": [
+            { "type": "dataPaths" }
+          ]
+        }
+      ]
+    }
+  ]
+}

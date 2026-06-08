@@ -1,0 +1,90 @@
+{
+  "header": {
+    "title": "SoloTemplate",
+    "subtitle": "SoloCommonWebUI control and layout demo",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Preview", "color": "#78b0ff" },
+      { "type": "iconTextButton", "icon": "next", "text": "Continue", "color": "#63d9a4" },
+      { "type": "iconButton", "icon": "export", "label": "Export", "color": "#ff8fab" }
+    ]
+  },
+  "content": [
+    {
+      "type": "section",
+      "items": [
+        { "type": "heading", "level": 1, "text": "Heading level 1" },
+        { "type": "heading", "level": 2, "text": "Heading level 2" },
+        { "type": "heading", "level": 3, "text": "Heading level 3" },
+        { "type": "paragraph", "text": "This page is sourced from JSON and rendered with SoloCommonWebUI primitives." }
+      ]
+    },
+    {
+      "type": "panels",
+      "items": [
+        {
+          "title": "Controls",
+          "items": [
+            {
+              "type": "controlRow",
+              "items": [
+                { "type": "lineEdit", "value": "Line edit" },
+                { "type": "checkbox", "text": "Checkbox", "value": "demo", "checked": true, "color": "#63d9a4" },
+                { "type": "iconButton", "icon": "tag", "label": "Tag", "color": "#c4a7ff" },
+                { "type": "iconTextButton", "icon": "preview", "text": "Icon text", "color": "#8bd5ff" },
+                { "type": "textButton", "text": "Text button", "color": "#f6c177" },
+                { "type": "textLabel", "text": "Text label", "color": "#a6e3a1" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Panel actions",
+          "actions": [
+            { "type": "iconButton", "icon": "action", "label": "Action", "color": "#f6c177" }
+          ],
+          "items": [
+            { "type": "paragraph", "text": "Panel title rows can include compact action controls." },
+            { "type": "textLabel", "text": "Panel label", "color": "#78b0ff" }
+          ]
+        },
+        {
+          "title": "Responsive panel",
+          "items": [
+            { "type": "paragraph", "text": "Panel layouts collapse into a single column on narrow screens." },
+            { "type": "iconTextButton", "icon": "next", "text": "Responsive action", "color": "#63d9a4" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Single panel layout",
+      "items": [
+        { "type": "paragraph", "text": "Use a single panel when the content should read as one tool surface." },
+        {
+          "type": "iconPanel",
+          "icon": "tag",
+          "overline": "Common item",
+          "title": "Icon panel",
+          "description": "A reusable panel with an icon banner and accent bar.",
+          "color": "#63d9a4",
+          "meta": [
+            { "label": "state", "value": "demo" },
+            { "label": "items", "value": "2" }
+          ],
+          "actions": [
+            { "type": "textButton", "text": "Browse", "color": "#63d9a4" },
+            { "type": "textButton", "text": "Search", "color": "#78b0ff" }
+          ]
+        },
+        {
+          "type": "controlRow",
+          "items": [
+            { "type": "textButton", "text": "Save", "color": "#63d9a4" },
+            { "type": "textButton", "text": "Cancel", "color": "#ff8fab" }
+          ]
+        }
+      ]
+    }
+  ]
+}

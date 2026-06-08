@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Roboto Mono Local";
+    src: url("../../assets/fonts/RobotoMono-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto Mono Local";
+    src: url("../../assets/fonts/RobotoMono-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto Mono Local";
+    src: url("../../assets/fonts/RobotoMono-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto Mono Local";
+    src: url("../../assets/fonts/RobotoMono-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-body: "Roboto Mono Local", monospace;
+    --font-display: "Roboto Mono Local", monospace;
+
+    --font-normal-size: 0.736rem;
+    --font-normal-line-height: 1.25;
+    --font-normal-weight: 400;
+
+    --font-footnote-size: 0.64rem;
+    --font-footnote-line-height: 1.25;
+    --font-footnote-weight: 400;
+
+    --font-heading-1-size: 2.08rem;
+    --font-heading-1-line-height: 1.08;
+    --font-heading-1-weight: 700;
+
+    --font-heading-2-size: 1.36rem;
+    --font-heading-2-line-height: 1.18;
+    --font-heading-2-weight: 600;
+
+    --font-heading-3-size: 0.92rem;
+    --font-heading-3-line-height: 1.28;
+    --font-heading-3-weight: 600;
+}
+
+body,
+.font-normal {
+    font-family: var(--font-body);
+    font-size: var(--font-normal-size);
+    font-weight: var(--font-normal-weight);
+    line-height: var(--font-normal-line-height);
+}
+
+.font-footnote {
+    font-family: var(--font-body);
+    font-size: var(--font-footnote-size);
+    font-weight: var(--font-footnote-weight);
+    line-height: var(--font-footnote-line-height);
+}
+
+h1,
+.font-heading-1 {
+    font-family: var(--font-display);
+    font-size: var(--font-heading-1-size);
+    font-weight: var(--font-heading-1-weight);
+    line-height: var(--font-heading-1-line-height);
+}
+
+h2,
+.font-heading-2 {
+    font-family: var(--font-display);
+    font-size: var(--font-heading-2-size);
+    font-weight: var(--font-heading-2-weight);
+    line-height: var(--font-heading-2-line-height);
+}
+
+h3,
+.font-heading-3 {
+    font-family: var(--font-display);
+    font-size: var(--font-heading-3-size);
+    font-weight: var(--font-heading-3-weight);
+    line-height: var(--font-heading-3-line-height);
+}

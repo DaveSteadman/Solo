@@ -1,0 +1,43 @@
+{
+  "header": {
+    "title": "SoloReference",
+    "subtitle": "Reference articles, links and full text search",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#f6c177", "action": "refresh" }
+    ]
+  },
+  "shell": { "fullWidth": true },
+  "content": [
+    {
+      "type": "panels",
+      "items": [
+        {
+          "title": "Status",
+          "items": [
+            { "type": "referenceStatus" }
+          ]
+        },
+        {
+          "title": "Paths",
+          "items": [
+            { "type": "referencePaths" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Search",
+      "items": [
+        { "type": "referenceSearch" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Recent Articles",
+      "items": [
+        { "type": "referenceArticles" }
+      ]
+    }
+  ]
+}

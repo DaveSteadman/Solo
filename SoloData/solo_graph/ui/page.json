@@ -1,0 +1,50 @@
+{
+  "header": {
+    "title": "SoloGraph",
+    "subtitle": "Concept vocabulary and relation graph",
+    "actions": [
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#8bd5ff", "action": "refresh" }
+    ]
+  },
+  "shell": { "fullWidth": true },
+  "content": [
+    {
+      "type": "panels",
+      "items": [
+        {
+          "title": "Status",
+          "items": [
+            { "type": "graphStatus" }
+          ]
+        },
+        {
+          "title": "Paths",
+          "items": [
+            { "type": "graphPaths" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Search",
+      "items": [
+        { "type": "graphSearch" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Recent Connections",
+      "items": [
+        { "type": "graphConnections" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Recent Vocab",
+      "items": [
+        { "type": "graphVocab" }
+      ]
+    }
+  ]
+}

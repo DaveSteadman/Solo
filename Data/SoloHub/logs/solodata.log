@@ -1,0 +1,2131 @@
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloData: http://127.0.0.1:9740/
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [38036]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 620) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 35168) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 38048) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 29352) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 5636) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/08/26 21:13:09] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloReference ready at http://127.0.0.1:9743
+  > SoloGraph ready at http://127.0.0.1:9745
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloLibrary ready at http://127.0.0.1:9741
+[06/08/26 21:13:10] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:13:11] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:13:13] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:64704 - "GET /ui HTTP/1.1" 200 OK
+[06/08/26 21:13:14] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:64704 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:64704 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55141 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58655 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64704 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62022 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55141 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56210 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+[06/08/26 21:13:34] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:13:35] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:49928 - "GET /ui HTTP/1.1" 200 OK
+[06/08/26 21:13:37] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:49928 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58042 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61719 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59689 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58880 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:49928 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61719 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59689 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58042 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:61719 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58880 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49928 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59689 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58042 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+[06/08/26 21:13:38] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:49928 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61719 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58042 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58880 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59689 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:61719 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59689 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61719 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59689 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49928 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58042 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58880 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59689 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58042 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61719 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49928 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58880 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58042 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56988 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58129 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58129 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56988 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58129 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56988 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56988 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58129 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56988 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64214 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58129 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56988 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56988 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58129 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64214 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51508 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53575 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51569 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60609 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61079 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51636 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53737 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61903 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51595 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53737 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61903 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61903 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53737 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51595 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61903 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53737 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51595 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53737 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51595 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61903 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51595 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61903 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53737 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54950 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61903 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65461 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65461 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58363 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64696 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65461 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58363 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64696 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64696 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65461 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58363 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64696 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58363 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65461 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64696 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58363 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65461 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64696 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49669 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58363 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65461 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64696 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54994 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64939 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64939 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61164 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59781 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64939 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61164 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59781 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61164 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59781 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64939 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61164 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64939 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59781 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64939 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61164 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59781 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64939 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61164 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59781 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61044 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60434 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     Shutting down
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [14344]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 28984) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 39868) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 21776) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 21644) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 15456) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/08/26 21:38:34] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloGraph ready at http://127.0.0.1:9745
+  > SoloReference ready at http://127.0.0.1:9743
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloLibrary ready at http://127.0.0.1:9741
+[06/08/26 21:38:35] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59117 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61294 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61294 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61294 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61294 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61294 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52206 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64630 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61294 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51398 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59117 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58513 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50784 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63926 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56733 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58513 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56733 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50784 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56733 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63926 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58513 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50784 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56733 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50784 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58513 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63926 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56733 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56733 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58513 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50784 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63926 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58513 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56733 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50784 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63926 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54931 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63975 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61061 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61061 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61061 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61061 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61061 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61061 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61833 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+[06/08/26 21:39:13] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:14] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:16] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:17] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:19] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:21] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:22] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:24] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:26] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:27] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:29] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:31] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:32] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:34] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:36] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:37] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:39] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 21:39:41] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:54933 - "GET /ui HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:54933 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65454 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63872 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64514 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+[06/08/26 21:39:42] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+INFO:     127.0.0.1:54933 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65454 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63872 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:64514 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65454 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54933 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63872 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:54933 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64514 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63872 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65454 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64514 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65454 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65454 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64514 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54933 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63872 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64514 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65454 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54933 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63872 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60394 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64743 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64971 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51934 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64971 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51934 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51934 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64971 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51934 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64971 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51934 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64971 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64971 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51934 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58424 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61849 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64986 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64971 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[06/08/26 22:00:02] INFO     StreamableHTTP      streamable_http_manager.py:132
+                             session manager                                   
+                             shutting down                                     
+
+SoloDataGateway: shutting down child services
+  < stopping SoloGraph (pid 15456)
+  < stopping SoloRAG (pid 21644)
+  < stopping SoloReference (pid 21776)
+  < stopping SoloFeeds (pid 28984)
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14344]
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [27768]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 30372) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 36744) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 35220) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 9656) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 16924) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/08/26 22:00:13] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloGraph ready at http://127.0.0.1:9745
+  > SoloReference ready at http://127.0.0.1:9743
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloLibrary ready at http://127.0.0.1:9741
+[06/08/26 22:00:14] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+[06/08/26 22:00:20] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:21] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:23] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:24] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:26] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:27] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:28] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:29] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:31] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:33] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:34] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:36] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:39] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:40] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:41] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:44] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:45] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:46] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:48] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:49] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:51] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:53] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:54] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:56] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:58] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:00:59] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:01] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:03] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:04] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:06] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:09] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:11] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:14] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:15] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:16] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:17] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:18] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+[06/08/26 22:01:19] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:22] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:24] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:26] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+[06/08/26 22:01:27] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:28] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:29] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:31] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:32] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:33] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:01:34] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:61969 - "GET /ui HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:61969 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61969 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61969 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61969 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61969 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61969 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64025 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65475 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50301 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50991 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55675 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55675 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59194 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50583 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49183 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55675 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59194 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50583 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49183 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49183 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55675 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50583 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59194 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49183 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55675 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50583 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59194 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49183 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49183 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59194 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55675 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50583 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55675 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49183 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59194 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50583 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59225 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60566 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+[06/08/26 22:02:31] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:02:32] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:02:34] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:02:35] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:02:37] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:02:39] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:02:40] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:02:42] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:63851 - "GET /ui HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:63851 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60897 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57524 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62665 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49373 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+INFO:     127.0.0.1:63851 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60897 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57524 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62665 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:62665 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60897 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63851 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49373 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57524 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:49373 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60897 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63851 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57524 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62665 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62665 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49373 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49373 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63851 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60897 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57524 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62665 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63851 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60897 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57524 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49373 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62665 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63851 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64497 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64497 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60305 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60701 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63787 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64497 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60305 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60701 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60701 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60305 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63787 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64497 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60305 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64497 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63787 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60701 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60305 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60701 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63787 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64497 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60305 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60701 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64474 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63787 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64497 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60701 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50627 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[06/08/26 22:04:10] INFO     StreamableHTTP      streamable_http_manager.py:132
+                             session manager                                   
+                             shutting down                                     
+
+SoloDataGateway: shutting down child services
+  < stopping SoloRAG (pid 9656)
+  < stopping SoloReference (pid 35220)
+  < stopping SoloLibrary (pid 36744)
+  < stopping SoloFeeds (pid 30372)
+INFO:     Application shutdown complete.
+INFO:     Finished server process [27768]
+SoloDataGateway: http://127.0.0.1:9740/ui
+SoloDataGateway MCP: http://127.0.0.1:9740/mcp
+INFO:     Started server process [25944]
+INFO:     Waiting for application startup.
+
+SoloDataGateway: starting child services
+  > SoloFeeds starting (pid 21764) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Feeds\logs\service.log
+  > SoloLibrary starting (pid 41316) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Library\logs\service.log
+  > SoloReference starting (pid 3304) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Reference\logs\service.log
+  > SoloRAG starting (pid 41340) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\RAG\logs\service.log
+  > SoloGraph starting (pid 38028) log -> C:\Util\GithubRepos\Solo_wc\Data\SoloData\Graph\logs\service.log
+[06/08/26 22:04:20] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+  > SoloGraph ready at http://127.0.0.1:9745
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+  > SoloFeeds ready at http://127.0.0.1:9742
+  > SoloRAG ready at http://127.0.0.1:9744
+  > SoloLibrary ready at http://127.0.0.1:9741
+  > SoloReference ready at http://127.0.0.1:9743
+[06/08/26 22:04:21] INFO     StreamableHTTP      streamable_http_manager.py:128
+                             session manager                                   
+                             started                                           
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9740 (Press CTRL+C to quit)
+[06/08/26 22:05:26] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 22:05:27] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:51172 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51172 - "POST /mcp/ HTTP/1.1" 200 OK
+[06/08/26 23:21:55] INFO     Terminating session: None   streamable_http.py:785
+INFO:     127.0.0.1:51173 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51173 - "POST /mcp/ HTTP/1.1" 202 Accepted
+                    INFO     Terminating session: None   streamable_http.py:785
+INFO:     127.0.0.1:51174 - "POST /mcp HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51174 - "POST /mcp/ HTTP/1.1" 200 OK
+                    INFO     Processing request of type           server.py:727
+                             ListToolsRequest                                  
+                    INFO     Terminating session: None   streamable_http.py:785
+INFO:     127.0.0.1:58348 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63268 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58156 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63268 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63268 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58156 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63268 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58156 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63268 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58156 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53173 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63268 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57985 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63268 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58348 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60873 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50517 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50517 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60873 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60873 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50517 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50517 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60873 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50517 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60873 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65446 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50517 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60873 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64133 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51316 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50431 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+[06/08/26 23:23:42] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+[06/08/26 23:23:43] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 23:23:45] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9742/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9741/status                      
+                             "HTTP/1.0 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9743/status                      
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9744/status                      
+                             "HTTP/1.0 200 OK"                                 
+[06/08/26 23:23:46] INFO     HTTP Request: GET                  _client.py:1740
+                             http://127.0.0.1:9745/status                      
+                             "HTTP/1.0 200 OK"                                 
+INFO:     127.0.0.1:57989 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57989 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53691 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58608 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57989 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58608 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53691 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53691 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58608 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57989 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53691 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57989 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58608 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58608 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53691 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57989 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53691 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57989 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58608 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58480 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63726 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64887 - "GET /common/framework/core/checkbox.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63668 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53184 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /common/framework/core/icon-panel.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63668 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64887 - "GET /common/framework/core/tabs.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53184 - "GET /ui/solo-data.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53184 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63668 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64887 - "GET /common/framework/js/icon-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /common/framework/js/icon-panel.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53184 - "GET /common/framework/js/tabs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /common/framework/js/text-label.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63668 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64887 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53184 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64887 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63668 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53184 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63668 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /common/assets/icons/book-user-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64887 - "GET /common/assets/fonts/RobotoMono-Bold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53184 - "GET /common/assets/icons/rss-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55260 - "GET /common/assets/icons/chart-network-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53027 - "GET /common/assets/icons/shapes-svgrepo-com.svg HTTP/1.1" 200 OK

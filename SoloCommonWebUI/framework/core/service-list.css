@@ -1,0 +1,102 @@
+.service-list {
+    display: grid;
+    gap: var(--layout-gap);
+}
+
+.service-list-row {
+    display: grid;
+    grid-template-columns: minmax(180px, 1.2fr) minmax(140px, 0.8fr) minmax(150px, 0.8fr) auto;
+    gap: var(--layout-gap);
+    align-items: center;
+    min-width: 0;
+    padding: var(--layout-gap);
+    border: 1px solid var(--layout-line);
+    border-radius: var(--control-border-radius);
+    background: var(--layout-surface-subtle);
+}
+
+.service-list-main {
+    display: grid;
+    gap: 4px;
+    min-width: 0;
+}
+
+.service-list-main h3 {
+    margin: 0;
+}
+
+.service-list-main p,
+.service-list-meta p {
+    margin: 0;
+    color: var(--layout-muted);
+}
+
+.service-list-meta {
+    display: grid;
+    gap: 4px;
+    min-width: 0;
+}
+
+.service-list-meta a,
+.service-list-meta code {
+    color: var(--layout-ink);
+    overflow-wrap: anywhere;
+}
+
+.service-list-state {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-height: var(--control-row-height);
+    padding-inline: var(--control-padding-inline);
+    border: 1px solid var(--control-accent);
+    border-radius: var(--control-border-radius);
+    color: var(--control-accent);
+}
+
+.service-list-state--running {
+    --control-accent: #63d9a4;
+}
+
+.service-list-state--external {
+    --control-accent: #78b0ff;
+}
+
+.service-list-state--stopped {
+    --control-accent: #f6c177;
+}
+
+.service-list-state--missing,
+.service-list-state--exited {
+    --control-accent: #ff8fab;
+}
+
+.service-list-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.service-list-actions .icon-button[data-action="start"] {
+    --control-accent: #63d9a4;
+}
+
+.service-list-actions .icon-button[data-action="stop"] {
+    --control-accent: #ff8fab;
+}
+
+.service-list-actions .icon-button[data-action="restart"] {
+    --control-accent: #78b0ff;
+}
+
+@media (max-width: 860px) {
+    .service-list-row {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+    }
+
+    .service-list-actions {
+        justify-content: flex-start;
+    }
+}

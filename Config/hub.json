@@ -1,0 +1,84 @@
+{
+  "hub": {
+    "label": "SoloHub"
+  },
+  "services": [
+    {
+      "slug": "solochat",
+      "label": "SoloChat",
+      "description": "Conversation data and chat state process.",
+      "cwd": "../SoloChat",
+      "command": ["{python}", "main.py"],
+      "urlPath": "/ui",
+      "healthPath": "/status",
+      "enabled": true,
+      "autoStart": true
+    },
+    {
+      "slug": "solodata",
+      "label": "SoloData",
+      "description": "Data gateway, web UI and MCP tools. Launches child data services.",
+      "cwd": "../SoloData/solo_data_gateway",
+      "command": ["{python}", "main.py"],
+      "urlPath": "/ui",
+      "healthPath": "/status",
+      "enabled": true,
+      "autoStart": true
+    },
+    {
+      "slug": "sololibrary",
+      "label": "SoloLibrary",
+      "description": "Book catalogs backed by SQLite databases.",
+      "cwd": "../SoloData/solo_library",
+      "command": ["{python}", "main.py"],
+      "urlPath": "/ui",
+      "healthPath": "/status",
+      "enabled": false,
+      "autoStart": false
+    },
+    {
+      "slug": "soloagent",
+      "label": "SoloAgent",
+      "description": "Main agent and orchestration process.",
+      "cwd": "../SoloAgent",
+      "command": ["{python}", "main.py"],
+      "urlPath": "/ui",
+      "healthPath": "/status",
+      "enabled": true,
+      "autoStart": true
+    },
+    {
+      "slug": "solollm",
+      "label": "SoloLLM",
+      "description": "LLM wrapper library and test CLI. Not a standalone service.",
+      "cwd": "../SoloLLM",
+      "command": ["{python}", "main.py"],
+      "urlPath": "/ui",
+      "healthPath": "/status",
+      "enabled": false,
+      "autoStart": false
+    },
+    {
+      "slug": "solodocs",
+      "label": "SoloDocs",
+      "description": "Editable document output process.",
+      "cwd": "../SoloDocs",
+      "command": ["{python}", "main.py"],
+      "urlPath": "/ui",
+      "healthPath": "/status",
+      "enabled": false,
+      "autoStart": false
+    },
+    {
+      "slug": "solocode",
+      "label": "SoloCode",
+      "description": "Agentic code editor process.",
+      "cwd": "../SoloCode",
+      "command": ["{python}", "main.py"],
+      "urlPath": "/ui",
+      "healthPath": "/status",
+      "enabled": true,
+      "autoStart": true
+    }
+  ]
+}

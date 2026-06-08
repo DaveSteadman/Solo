@@ -1,0 +1,62 @@
+{
+  "comment": "Factory defaults. Every Solo service port is defined here. Override local machine values in local.json.",
+  "network": {
+    "host": "127.0.0.1"
+  },
+  "paths": {
+    "dataRoot": "./Data",
+    "soloDataFeedsRoot": "./Data/SoloData/Feeds",
+    "soloDataLibraryRoot": "./Data/SoloData/Library",
+    "soloDataReferenceRoot": "./Data/SoloData/Reference",
+    "soloDataRAGRoot": "./Data/SoloData/RAG",
+    "soloDataGraphRoot": "./Data/SoloData/Graph",
+    "soloCodeWorkspaceRoot": "."
+  },
+  "services": {
+    "solohub": {
+      "port": 9700
+    },
+    "soloagent": {
+      "port": 9710
+    },
+    "solochat": {
+      "port": 9720
+    },
+    "solollm": {
+      "port": 9730
+    },
+    "solodata": {
+      "port": 9740
+    },
+    "sololibrary": {
+      "port": 9741
+    },
+    "solofeeds": {
+      "port": 9742
+    },
+    "soloreference": {
+      "port": 9743
+    },
+    "solorag": {
+      "port": 9744
+    },
+    "solograph": {
+      "port": 9745
+    },
+    "solodocs": {
+      "port": 9750
+    },
+    "solocode": {
+      "port": 9760
+    }
+  },
+  "mcp_connections": [
+    {
+      "name": "solodata",
+      "transport": "streamable_http",
+      "url": "http://127.0.0.1:9740/mcp",
+      "expected_prefix": "solodata_",
+      "purpose": "SoloData search and edit tools for SoloAgent."
+    }
+  ]
+}
