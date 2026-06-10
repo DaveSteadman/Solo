@@ -41,6 +41,17 @@ def resolve_solo_path(raw: object, default: str) -> Path:
     return (SOLO_ROOT / path).resolve()
 
 
+def resolve_data_path(config: dict[str, Any], *parts: str) -> Path:
+    """Resolve a path under the configured dataRoot.
+    Services should use this instead of per-service path keys.
+    Set 'paths.dataRoot' in local.json to an absolute path when data lives
+    separately from the code (e.g. 'C:/MyData').
+    """
+    paths = config.get("paths") if isinstance(config.get("paths"), dict) else {}
+    base = resolve_solo_path(paths.get("dataRoot"), "./Data")
+    return base.joinpath(*parts)
+
+
 def service_host_port(config: dict[str, Any], slug: str, fallback_port: int) -> tuple[str, int]:
     network = config.get("network") if isinstance(config.get("network"), dict) else {}
     services = config.get("services") if isinstance(config.get("services"), dict) else {}

@@ -4,6 +4,19 @@ export function stripHtml(value) {
     return div.textContent || div.innerText || "";
 }
 
+export function round_to_dp(value, decimalPlaces = 2) {
+    const numeric = Number(value);
+    const digits = Number(decimalPlaces);
+    if (!Number.isFinite(numeric)) {
+        return 0;
+    }
+    if (!Number.isInteger(digits) || digits < 0) {
+        return numeric;
+    }
+    const factor = 10 ** digits;
+    return Math.round(numeric * factor) / factor;
+}
+
 export function formatNumber(value, locale = "en-GB") {
     const numeric = Number(value || 0);
     return Number.isFinite(numeric) ? numeric.toLocaleString(locale) : "0";

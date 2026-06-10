@@ -950,5 +950,22 @@
     "rounds": 0,
     "tool_results": [],
     "error": "'No executor is available for tool: run_analysis'"
+  },
+  {
+    "id": 54,
+    "created_at": "2026-06-09T21:33:05.729316+00:00",
+    "prompt": "hi",
+    "response": "Hi there! How can I help you today?",
+    "backend": "ollama",
+    "host": "http://MONTBLANC:11434",
+    "model": "nemotron-cascade-2:latest",
+    "context_size": 8192,
+    "use_tools": true,
+    "elapsed_seconds": 10.487,
+    "prompt_tokens": 10422,
+    "completion_tokens": 29,
+    "rounds": 1,
+    "tool_results": [],
+    "error": ""
   }
 ]

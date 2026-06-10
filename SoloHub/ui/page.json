@@ -4,8 +4,8 @@
     "subtitle": "Process launcher and configuration surface",
     "actions": [
       { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#78b0ff", "action": "refresh" },
-      { "type": "iconTextButton", "icon": "next", "text": "Start auto", "color": "#63d9a4", "action": "startAuto" },
-      { "type": "iconTextButton", "icon": "export", "text": "Stop all", "color": "#ff8fab", "action": "stopAll" }
+      { "type": "iconTextButton", "icon": "next",    "text": "Start auto", "color": "#63d9a4", "action": "startAuto" },
+      { "type": "iconTextButton", "icon": "export",  "text": "Stop all", "color": "#ff8fab", "action": "stopAll" }
     ]
   },
   "shell": { "fullWidth": true },
@@ -32,6 +32,16 @@
       "title": "Child processes",
       "items": [
         { "type": "hubServiceList" }
+      ]
+    },
+    {
+      "type": "panel",
+      "title": "Hub Report",
+      "actions": [
+        { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#78b0ff", "action": "refresh" }
+      ],
+      "items": [
+        { "type": "hubReport" }
       ]
     }
   ]

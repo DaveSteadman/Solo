@@ -7,6 +7,7 @@ const colors = {
     solohub: "#eef3fb",
     sololibrary: "#d4e157",
     solollm: "#7bdff2",
+    solostate: "#9fb7ff",
 
     feeds: "#ff9db6",
     graph: "#ff6f9c",

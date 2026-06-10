@@ -2,140 +2,206 @@
 // Copyright (c) 2026 Solo contributors
 //
 // Purpose:
-// Renders the SoloGraph page from ui/page.json and service API responses.
+// Central entry point for the SoloGraph page.
+// Owns state, render, and shared fetch utilities.
+// Sub-modules (graph-vocab, graph-connections, graph-import-export) import from here.
 
 import { createHeading, createPage, createParagraph } from "/common/framework/js/basic-layout.js";
 import { createIconTextButton } from "/common/framework/js/icon-text-button.js";
-import { createLineEdit } from "/common/framework/js/line-edit.js";
-import { createTextButton } from "/common/framework/js/text-button.js";
 import { createTextLabel } from "/common/framework/js/text-label.js";
 import * as layout from "/common/framework/js/layout-components.js";
+import { loadVocab, createGraphVocab } from "./graph-vocab.js";
+import { loadConnections, createGraphConnections } from "./graph-connections.js";
+import { exportCsvFiles, importCsvFiles } from "./graph-import-export.js";
 
 const mount = document.querySelector("#app");
-let pageSpec = null;
-let snapshot = null;
-let query = "";
-let results = [];
+
+export const state = {
+    pageSpec: null,
+
+    vocab: [],
+    vocabHasMore: false,
+    vocabOffset: 0,
+    vocabLimit: 50,
+    addVocabTerm: "",
+    editingVocabId: null,
+    editingVocabTerm: "",
+
+    connections: [],
+    connHasMore: false,
+    connOffset: 0,
+    connLimit: 100,
+    connSearch: "",
+    addStart: "",
+    addVia: "",
+    addEnd: "",
+};
 
 const controlFactories = {
     graphConnections: createGraphConnections,
-    graphPaths: createGraphPaths,
-    graphSearch: createGraphSearch,
-    graphStatus: createGraphStatus,
     graphVocab: createGraphVocab,
     heading: createHeading,
     iconTextButton: createActionIconTextButton,
     paragraph: createParagraph,
-    textLabel: createTextLabel
+    textLabel: createTextLabel,
 };
 
+// ---------------------------------------------------------------------------
+// Boot
+// ---------------------------------------------------------------------------
+
 async function boot() {
-    pageSpec = await fetchJson("/ui/page.json");
-    snapshot = await fetchJson("/api/snapshot");
+    state.pageSpec = await fetchJson("/ui/page.json");
+
+    await Promise.all([
+        loadVocab(),
+        loadConnections(),
+    ]);
+
     render();
 }
 
-async function fetchJson(url, options) {
-    const response = await fetch(url, options);
-    if (!response.ok) {
-        throw new Error(`${url} returned HTTP ${response.status}`);
-    }
-    return response.json();
-}
-
-function render() {
-    mount.replaceChildren(createPage(pageSpec, createControl));
+export function render() {
+    mount.replaceChildren(createPage(state.pageSpec, createControl));
 }
 
 function createControl(spec) {
     const factory = controlFactories[spec.type];
+
     if (!factory) {
         throw new Error(`Unknown component type: ${spec.type}`);
     }
+
     return factory(spec);
 }
 
+// ---------------------------------------------------------------------------
+// Top actions
+// ---------------------------------------------------------------------------
+
 function createActionIconTextButton(spec) {
     const button = createIconTextButton(spec);
+
     if (spec.action === "refresh") {
-        button.addEventListener("click", refresh);
+        button.addEventListener("click", async () => {
+            await Promise.all([
+                loadVocab(),
+                loadConnections(),
+            ]);
+
+            render();
+        });
     }
+
+    if (spec.action === "export") {
+        button.addEventListener("click", exportCsvFiles);
+    }
+
+    if (spec.action === "import") {
+        button.addEventListener("click", importCsvFiles);
+    }
+
     return button;
 }
 
-async function refresh() {
-    snapshot = await fetchJson("/api/snapshot");
-    render();
+// ---------------------------------------------------------------------------
+// Utilities
+// ---------------------------------------------------------------------------
+
+export async function fetchJson(url, options = {}) {
+    const response = await fetch(url, options);
+    const text = await response.text();
+
+    if (!response.ok) {
+        throw new Error(formatHttpError(url, response.status, text));
+    }
+
+    if (!text.trim()) {
+        return {};
+    }
+
+    try {
+        return JSON.parse(text);
+    } catch {
+        throw new Error(`${url} returned invalid JSON: ${trimForAlert(text)}`);
+    }
 }
 
-function createGraphStatus() {
-    const metrics = snapshot?.metrics ?? {};
-    return layout.metricGrid([
-        ["Vocab", metrics.vocab ?? 0],
-        ["Relations", metrics.relations ?? 0],
-        ["Uptime", `${snapshot?.uptimeSec ?? 0}s`]
-    ]);
+export async function fetchOk(url, options = {}) {
+    const response = await fetch(url, options);
+    const text = await response.text();
+
+    if (!response.ok) {
+        throw new Error(formatHttpError(url, response.status, text));
+    }
 }
 
-function createGraphPaths() {
-    const paths = snapshot?.paths ?? {};
-    return layout.pathList([
-        ["Graph", paths.graphRoot ?? ""],
-        ["Database", paths.db ?? ""],
-        ["Logs", paths.logs ?? ""]
-    ]);
+function formatHttpError(url, status, text) {
+    const detail = extractUsefulErrorText(text);
+
+    if (!detail) {
+        return `${url} returned HTTP ${status}`;
+    }
+
+    return `${url} returned HTTP ${status}: ${detail}`;
 }
 
-function createGraphSearch() {
-    const input = createLineEdit({ value: query, placeholder: "Search concepts and connections" });
-    input.addEventListener("input", () => {
-        query = input.value;
-    });
-    input.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") {
-            runSearch();
+function extractUsefulErrorText(text) {
+    if (!text) {
+        return "";
+    }
+
+    const trimmed = text.trim();
+
+    if (!trimmed) {
+        return "";
+    }
+
+    if (trimmed.startsWith("<!DOCTYPE") || trimmed.startsWith("<html")) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(trimmed, "text/html");
+
+        const title = doc.querySelector("title")?.textContent?.trim();
+        const body = doc.body?.textContent?.trim();
+
+        return trimForAlert(body || title || "HTML error response");
+    }
+
+    try {
+        const obj = JSON.parse(trimmed);
+
+        if (obj.error) {
+            return String(obj.error);
         }
-    });
-    const button = createTextButton({ text: "Search", color: "#8bd5ff" });
-    button.addEventListener("click", runSearch);
-    return layout.stack([
-        layout.searchRow([input, button], { singleAction: true }),
-        results.length ? createConnectionList(results) : layout.mutedText(query ? "No results." : "Results appear here after a search.")
-    ]);
-}
 
-async function runSearch() {
-    const data = await fetchJson(`/api/search?q=${encodeURIComponent(query)}&limit=25`);
-    results = data.results ?? [];
-    render();
-}
+        if (obj.message) {
+            return String(obj.message);
+        }
 
-function createGraphConnections() {
-    return createConnectionList(snapshot?.recentConnections ?? []);
-}
-
-function createConnectionList(items) {
-    if (!items.length) {
-        return layout.mutedText("No connections yet.");
+        return trimForAlert(JSON.stringify(obj));
+    } catch {
+        return trimForAlert(trimmed);
     }
-    return layout.itemList(items.map((item) => layout.item([
-        layout.titleRow(`${item.start ?? ""} ${item.predicate ?? ""} ${item.end ?? ""}`, String(item.score ?? "")),
-        layout.normalText(item.evidence || ""),
-        layout.mutedText([item.state, item.updated_at].filter(Boolean).join(" | "))
-    ])));
 }
 
-function createGraphVocab() {
-    const items = snapshot?.recentVocab ?? [];
-    if (!items.length) {
-        return layout.mutedText("No vocab yet.");
+function trimForAlert(text, maxLen = 500) {
+    const singleLine = String(text)
+        .replace(/\s+/g, " ")
+        .trim();
+
+    if (singleLine.length <= maxLen) {
+        return singleLine;
     }
-    return layout.itemList(items.map((item) => layout.item([
-        layout.titleRow(item.term ?? "", item.kind ?? ""),
-        layout.normalText(item.notes || "")
-    ])));
+
+    return `${singleLine.slice(0, maxLen)}...`;
 }
+
+// ---------------------------------------------------------------------------
+// Start
+// ---------------------------------------------------------------------------
 
 boot().catch((error) => {
-    mount.replaceChildren(layout.shell([layout.errorText(error.message)]));
+    mount.replaceChildren(layout.shell([
+        layout.errorText(error.message),
+    ]));
 });

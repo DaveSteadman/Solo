@@ -2,6 +2,7 @@ import { el } from "./dom.js";
 import { createIconButton } from "./icon-button.js";
 import { createIconTextButton } from "./icon-text-button.js";
 import { createTextButton } from "./text-button.js";
+import { round_to_dp } from "./text-utils.js";
 
 const actionFactories = {
     iconButton: createIconButton,
@@ -80,8 +81,8 @@ export function createSliderPanel(spec, createControl = () => null) {
         }
         try {
             const payload = paneCount === 2
-                ? { left: state.left }
-                : { left: state.left, right: state.right };
+                ? { left: round_to_dp(state.left) }
+                : { left: round_to_dp(state.left), right: round_to_dp(state.right) };
             window.localStorage.setItem(storageKey, JSON.stringify(payload));
         } catch {
             return;

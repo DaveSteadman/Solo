@@ -22,7 +22,7 @@ if str(SOLO_DATA_ROOT) not in sys.path:
     sys.path.insert(0, str(SOLO_DATA_ROOT))
 
 from common_utils.compression import compress_text, decompress_text  # noqa: E402
-from common_utils.config import load_config, resolve_solo_path, service_host_port  # noqa: E402
+from common_utils.config import load_config, resolve_data_path, service_host_port  # noqa: E402
 from common_utils.service import parse_service_args, query_int, query_text, run_http_service  # noqa: E402
 from common_utils.sqlite import fts_build_query, sqlite_connection  # noqa: E402
 from common_utils.web import send_json  # noqa: E402
@@ -764,8 +764,7 @@ def main() -> int:
     host, port = service_host_port(config, "solofeeds", 9742)
     host = args.host or host
     port = int(args.port or port)
-    paths = config.get("paths") if isinstance(config.get("paths"), dict) else {}
-    feeds_root = resolve_solo_path(paths.get("soloDataFeedsRoot"), "./Data/SoloData/Feeds")
+    feeds_root = resolve_data_path(config, "SoloData", "Feeds")
     store = SoloFeedsStore(feeds_root)
     if args.command == "status" or args.dry_run:
         print(store.status())

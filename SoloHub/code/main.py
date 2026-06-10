@@ -14,10 +14,10 @@ import urllib.request
 import webbrowser
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
-from http import HTTPStatus
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from typing import Any, ClassVar, IO
+from typing import Any, IO
+
+from api import serve
 
 
 CODE_DIR = Path(__file__).resolve().parent
@@ -40,6 +40,7 @@ class ServiceSpec:
     command: tuple[str, ...]
     url: str
     health_url: str
+    report_url: str
     enabled: bool
     auto_start: bool
 
@@ -127,7 +128,7 @@ def load_services(config: dict[str, Any], local_config: dict[str, Any]) -> list[
         if not slug:
             raise SystemExit("Each service needs a slug.")
         service_config = service_ports.get(slug) if isinstance(service_ports.get(slug), dict) else {}
-        url, health_url = service_urls(raw, service_config, default_host)
+        url, health_url, report_url = service_urls(raw, service_config, default_host)
         services.append(
             ServiceSpec(
                 slug=slug,
@@ -137,6 +138,7 @@ def load_services(config: dict[str, Any], local_config: dict[str, Any]) -> list[
                 command=expand_command(raw.get("command") if isinstance(raw.get("command"), list) else []),
                 url=url,
                 health_url=health_url,
+                report_url=report_url,
                 enabled=bool(raw.get("enabled", True)),
                 auto_start=bool(raw.get("autoStart", False)),
             )
@@ -144,19 +146,22 @@ def load_services(config: dict[str, Any], local_config: dict[str, Any]) -> list[
     return services
 
 
-def service_urls(raw: dict[str, Any], service_config: dict[str, Any], default_host: str) -> tuple[str, str]:
+def service_urls(raw: dict[str, Any], service_config: dict[str, Any], default_host: str) -> tuple[str, str, str]:
     port = service_config.get("port")
     host = str(service_config.get("host") or default_host)
     raw_url = str(raw.get("url") or "")
     raw_health_url = str(raw.get("healthUrl") or raw_url)
+    raw_report_url = str(raw.get("reportUrl") or "")
 
     if port is None:
-        return raw_url, raw_health_url
+        return raw_url, raw_health_url, raw_report_url
 
     url_path = str(raw.get("urlPath") or path_from_url(raw_url) or "/")
     health_path = str(raw.get("healthPath") or path_from_url(raw_health_url) or url_path)
+    report_path = str(raw.get("reportPath") or path_from_url(raw_report_url) or "")
     base_url = f"http://{host}:{int(port)}"
-    return base_url + normalize_url_path(url_path), base_url + normalize_url_path(health_path)
+    report_url = base_url + normalize_url_path(report_path) if report_path else raw_report_url
+    return base_url + normalize_url_path(url_path), base_url + normalize_url_path(health_path), report_url
 
 
 def path_from_url(url: str) -> str:
@@ -192,6 +197,19 @@ def probe_http(url: str, timeout: float = 1.0) -> tuple[bool, str]:
         return False, f"HTTP {exc.code}"
     except Exception as exc:
         return False, exc.__class__.__name__
+
+
+def fetch_text(url: str, timeout: float = 1.0, max_chars: int = 1200) -> str:
+    if not url:
+        return ""
+    try:
+        with urllib.request.urlopen(url, timeout=timeout) as response:
+            payload = response.read(max_chars + 1).decode("utf-8", errors="replace").strip()
+    except Exception:
+        return ""
+    if len(payload) > max_chars:
+        return f"{payload[:max_chars - 3]}..."
+    return payload
 
 
 def find_listening_pid(url: str) -> int | None:
@@ -260,6 +278,7 @@ class HubManager:
         self._service_map = {service.slug: service for service in services}
         self._log_dir = log_dir
         self._data_root = data_root
+        self._ui_state_path = data_root / "SoloHub" / "ui-state.json"
         self._processes: dict[str, subprocess.Popen[bytes]] = {}
         self._external_pids: dict[str, int] = {}
         self._started_at: dict[str, float] = {}
@@ -332,15 +351,7 @@ class HubManager:
             listener_pid = find_listening_pid(service.health_url)
             return terminate_pid(listener_pid) if listener_pid is not None else False
 
-        changed = False
-        process.terminate()
-        try:
-            process.wait(timeout=8)
-            changed = True
-        except subprocess.TimeoutExpired:
-            process.kill()
-            process.wait(timeout=5)
-            changed = True
+        changed = self._stop_managed_process(process)
 
         listener_pid = find_listening_pid(service.health_url)
         if listener_pid is not None and listener_pid != process.pid:
@@ -374,20 +385,21 @@ class HubManager:
             started_at = dict(self._started_at)
 
         cwd_exists_by_slug = {service.slug: service.cwd.exists() for service in self._services}
-        probe_results: dict[str, tuple[bool, str]] = {}
+        probe_results: dict[str, tuple[bool, str, str]] = {}
 
-        def probe_service(service: ServiceSpec) -> tuple[str, bool, str]:
+        def probe_service(service: ServiceSpec) -> tuple[str, bool, str, str]:
             cwd_exists = cwd_exists_by_slug[service.slug]
             process = processes.get(service.slug)
             running = process is not None and process.poll() is None
             if not cwd_exists and not running:
-                return service.slug, False, "missing cwd"
+                return service.slug, False, "missing cwd", ""
             reachable, detail = probe_http(service.health_url, timeout=0.35)
-            return service.slug, reachable, detail
+            report = fetch_text(service.report_url, timeout=0.35) if reachable and service.report_url else ""
+            return service.slug, reachable, detail, report
 
         with ThreadPoolExecutor(max_workers=max(1, len(self._services))) as pool:
-            for slug, reachable, detail in pool.map(probe_service, self._services):
-                probe_results[slug] = (reachable, detail)
+            for slug, reachable, detail, report in pool.map(probe_service, self._services):
+                probe_results[slug] = (reachable, detail, report)
 
         service_entries = []
         for service in self._services:
@@ -397,7 +409,7 @@ class HubManager:
                 external_pid = None
             process_running = process is not None and process.poll() is None
             running = process_running or external_pid is not None
-            reachable, probe = probe_results.get(service.slug, (False, "not probed"))
+            reachable, probe, report = probe_results.get(service.slug, (False, "not probed", ""))
             cwd_exists = cwd_exists_by_slug[service.slug]
             state, state_label = self._state(service, process, running, reachable, cwd_exists)
             service_entries.append(
@@ -409,6 +421,7 @@ class HubManager:
                     "command": list(service.command),
                     "url": service.url,
                     "healthUrl": service.health_url,
+                    "reportUrl": service.report_url,
                     "enabled": service.enabled,
                     "autoStart": service.auto_start,
                     "startable": service.enabled and cwd_exists,
@@ -416,6 +429,7 @@ class HubManager:
                     "running": running,
                     "reachable": reachable,
                     "probe": probe,
+                    "report": report,
                     "pid": process.pid if process_running else external_pid,
                     "returncode": None if process is None or process_running else process.returncode,
                     "uptimeSec": round(time.time() - started_at[service.slug], 1) if running and service.slug in started_at else None,
@@ -442,6 +456,56 @@ class HubManager:
             "services": service_entries,
         }
 
+    def hub_report(self) -> dict[str, Any]:
+        snapshot = self.snapshot()
+        solo_agent = self._service_entry(snapshot, "soloagent")
+        if solo_agent is None:
+            solo_agent = {"slug": "soloagent", "label": "SoloAgent", "state": "stopped", "stateLabel": "Not configured", "report": ""}
+        return {
+            "title": "Hub Report",
+            "source": "SoloHub",
+            "content": self._hub_report_fallback(solo_agent),
+            "services": {
+                "soloAgent": self._report_service_status(solo_agent),
+            },
+        }
+
+    def report_text(self) -> str:
+        report = self.hub_report()
+        with self._lock:
+            ui_state = self._read_ui_state_locked()
+
+        lines = [
+            report["title"],
+            f"SoloAgent: {report['services']['soloAgent']['label']}",
+            "",
+            str(report.get("content") or ""),
+            "",
+            "Hub UI state",
+        ]
+
+        if ui_state:
+            lines.append(json.dumps(ui_state, indent=2, sort_keys=True))
+        else:
+            lines.append("{}")
+
+        return "\n".join(lines)
+
+    def get_ui_state(self, key: str) -> Any:
+        normalized = self._normalize_ui_state_key(key)
+        with self._lock:
+            state = self._read_ui_state_locked()
+            return state.get(normalized)
+
+    def set_ui_state(self, key: str, value: Any) -> dict[str, Any]:
+        normalized = self._normalize_ui_state_key(key)
+        normalized_value = self._normalize_ui_state_value(value)
+        with self._lock:
+            state = self._read_ui_state_locked()
+            state[normalized] = normalized_value
+            self._write_ui_state_locked(state)
+        return {"key": normalized, "value": normalized_value}
+
     def close(self) -> None:
         self.stop_all()
         with self._lock:
@@ -458,6 +522,90 @@ class HubManager:
         if service is None:
             raise KeyError(slug)
         return service
+
+    @staticmethod
+    def _normalize_ui_state_key(key: str) -> str:
+        normalized = str(key or "").strip().lower()
+        normalized = "".join(char for char in normalized if char.isalnum() or char in ("-", "_", "."))
+        if not normalized:
+            raise ValueError("UI state key is required")
+        return normalized
+
+    def _read_ui_state_locked(self) -> dict[str, Any]:
+        if not self._ui_state_path.exists():
+            return {}
+        try:
+            with self._ui_state_path.open("r", encoding="utf-8") as handle:
+                data = json.load(handle)
+        except Exception:
+            return {}
+        if not isinstance(data, dict):
+            return {}
+        return self._normalize_ui_state_value(data)
+
+    def _write_ui_state_locked(self, state: dict[str, Any]) -> None:
+        self._ui_state_path.parent.mkdir(parents=True, exist_ok=True)
+        normalized = self._normalize_ui_state_value(state)
+        lines = ["{"] + [
+            f'  {json.dumps(k)}: {json.dumps(v, separators=(",", ": "))},'
+            for k, v in sorted(normalized.items())
+        ]
+        if len(lines) > 1:
+            lines[-1] = lines[-1].rstrip(",")
+        lines.append("}")
+        with self._ui_state_path.open("w", encoding="utf-8") as handle:
+            handle.write("\n".join(lines) + "\n")
+
+    @classmethod
+    def _normalize_ui_state_value(cls, value: Any) -> Any:
+        if isinstance(value, float):
+            return round(value, 2)
+        if isinstance(value, list):
+            return [cls._normalize_ui_state_value(item) for item in value]
+        if isinstance(value, dict):
+            return {str(key): cls._normalize_ui_state_value(item) for key, item in value.items()}
+        return value
+
+    @staticmethod
+    def _service_entry(snapshot: dict[str, Any], slug: str) -> dict[str, Any] | None:
+        return next((service for service in snapshot.get("services", []) if service.get("slug") == slug), None)
+
+    @staticmethod
+    def _report_service_status(service: dict[str, Any] | None) -> dict[str, str]:
+        if service is None:
+            return {"label": "Not configured", "state": "missing"}
+        return {
+            "label": str(service.get("stateLabel") or "Unknown"),
+            "state": str(service.get("state") or "unknown"),
+        }
+
+    @staticmethod
+    def _hub_report_fallback(solo_agent: dict[str, Any] | None) -> str:
+        if solo_agent is not None and solo_agent.get("state") in {"running", "external"}:
+            return "SoloAgent is running."
+        return "SoloAgent is stopped."
+
+    @staticmethod
+    def _stop_managed_process(process: subprocess.Popen[bytes]) -> bool:
+        if process.poll() is not None:
+            return False
+
+        if os.name == "nt":
+            terminate_pid(process.pid)
+            try:
+                process.wait(timeout=8)
+            except subprocess.TimeoutExpired:
+                return False
+            return True
+
+        process.terminate()
+        try:
+            process.wait(timeout=8)
+            return True
+        except subprocess.TimeoutExpired:
+            process.kill()
+            process.wait(timeout=5)
+            return True
 
     @staticmethod
     def _state(
@@ -480,129 +628,6 @@ class HubManager:
         if process is not None and process.returncode is not None:
             return "exited", f"Exited {process.returncode}"
         return "stopped", "Stopped"
-
-
-def content_type_for(path: Path) -> str:
-    suffix = path.suffix.lower()
-    if suffix == ".css":
-        return "text/css; charset=utf-8"
-    if suffix == ".js":
-        return "text/javascript; charset=utf-8"
-    if suffix == ".json":
-        return "application/json; charset=utf-8"
-    if suffix == ".html":
-        return "text/html; charset=utf-8"
-    if suffix == ".svg":
-        return "image/svg+xml"
-    if suffix in (".ttf", ".otf", ".woff", ".woff2"):
-        return "font/ttf"
-    return "application/octet-stream"
-
-
-def build_handler(manager: HubManager, stop_event: threading.Event):
-    class HubHandler(BaseHTTPRequestHandler):
-        manager_ref: ClassVar[HubManager] = manager
-        stop_ref: ClassVar[threading.Event] = stop_event
-
-        def do_GET(self) -> None:  # noqa: N802
-            path = urllib.parse.urlsplit(self.path).path
-            if path in ("", "/", "/ui"):
-                self._serve_file(UI_DIR / "index.html")
-                return
-            if path == "/status":
-                self._send_json({"status": "ok", "service": "SoloHub"})
-                return
-            if path == "/api/snapshot":
-                self._send_json(self.manager_ref.snapshot())
-                return
-            if path.startswith("/ui/"):
-                self._serve_bounded(UI_DIR, path.removeprefix("/ui/"))
-                return
-            if path.startswith("/common/"):
-                self._serve_bounded(COMMON_UI_DIR, path.removeprefix("/common/"))
-                return
-            self.send_error(HTTPStatus.NOT_FOUND, "Not found")
-
-        def do_POST(self) -> None:  # noqa: N802
-            path = urllib.parse.urlsplit(self.path).path
-            if path == "/api/services/start-auto":
-                self._send_json({"ok": True, "changed": self.manager_ref.start_auto()})
-                return
-            if path == "/api/services/stop-all":
-                self._send_json({"ok": True, "changed": self.manager_ref.stop_all()})
-                return
-            if path == "/api/shutdown":
-                self.stop_ref.set()
-                self._send_json({"ok": True})
-                return
-            if path.startswith("/api/services/"):
-                parts = [part for part in path.split("/") if part]
-                if len(parts) == 4:
-                    _api, _services, slug, action = parts
-                    self._handle_service_action(slug, action)
-                    return
-            self.send_error(HTTPStatus.NOT_FOUND, "Not found")
-
-        def log_message(self, format: str, *args: object) -> None:
-            return
-
-        def _handle_service_action(self, slug: str, action: str) -> None:
-            try:
-                if action == "start":
-                    changed = self.manager_ref.start_service(slug)
-                elif action == "stop":
-                    changed = self.manager_ref.stop_service(slug)
-                elif action == "restart":
-                    changed = self.manager_ref.restart_service(slug)
-                else:
-                    self.send_error(HTTPStatus.NOT_FOUND, "Unknown action")
-                    return
-            except KeyError:
-                self.send_error(HTTPStatus.NOT_FOUND, "Unknown service")
-                return
-            except (FileNotFoundError, ValueError) as exc:
-                self.send_error(HTTPStatus.BAD_REQUEST, str(exc))
-                return
-            self._send_json({"ok": True, "service": slug, "action": action, "changed": changed})
-
-        def _send_json(self, payload: Any) -> None:
-            body = json.dumps(payload, indent=2).encode("utf-8")
-            self.send_response(HTTPStatus.OK)
-            self.send_header("Content-Type", "application/json; charset=utf-8")
-            self.send_header("Cache-Control", "no-store")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-
-        def _serve_bounded(self, root: Path, relative_path: str) -> None:
-            target = (root / relative_path).resolve()
-            root_resolved = root.resolve()
-            if target != root_resolved and root_resolved not in target.parents:
-                self.send_error(HTTPStatus.NOT_FOUND, "Not found")
-                return
-            self._serve_file(target)
-
-        def _serve_file(self, path: Path) -> None:
-            if not path.exists() or not path.is_file():
-                self.send_error(HTTPStatus.NOT_FOUND, "Not found")
-                return
-            body = path.read_bytes()
-            self.send_response(HTTPStatus.OK)
-            self.send_header("Content-Type", content_type_for(path))
-            self.send_header("Cache-Control", "no-store")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-
-    return HubHandler
-
-
-def serve(manager: HubManager, host: str, port: int, stop_event: threading.Event) -> None:
-    httpd = ThreadingHTTPServer((host, port), build_handler(manager, stop_event))
-    httpd.timeout = 0.5
-    while not stop_event.is_set():
-        httpd.handle_request()
-    httpd.server_close()
 
 
 def print_snapshot(snapshot: dict[str, Any]) -> None:
@@ -653,7 +678,7 @@ def main() -> int:
         webbrowser.open(f"http://{host}:{port}/")
 
     try:
-        serve(manager, host, port, stop_event)
+        serve(manager, host, port, stop_event, UI_DIR, COMMON_UI_DIR)
     finally:
         manager.close()
     return 0

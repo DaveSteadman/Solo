@@ -94,6 +94,12 @@ def resolve_solo_path(raw: object, default: str) -> Path:
     return (SOLO_ROOT / path).resolve()
 
 
+def resolve_data_path(config: dict[str, Any], *parts: str) -> Path:
+    paths = config.get("paths") if isinstance(config.get("paths"), dict) else {}
+    base = resolve_solo_path(paths.get("dataRoot"), "./Data")
+    return base.joinpath(*parts)
+
+
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -1099,11 +1105,10 @@ def main() -> int:
     network = config.get("network") if isinstance(config.get("network"), dict) else {}
     services = config.get("services") if isinstance(config.get("services"), dict) else {}
     sololibrary = services.get("sololibrary") if isinstance(services.get("sololibrary"), dict) else {}
-    paths = config.get("paths") if isinstance(config.get("paths"), dict) else {}
     host = args.host or str(sololibrary.get("host") or network.get("host") or "127.0.0.1")
     port = int(args.port or sololibrary.get("port") or 9741)
-    data_root = resolve_solo_path(paths.get("dataRoot"), "./Data")
-    library_root = resolve_solo_path(paths.get("soloDataLibraryRoot"), "./Data/SoloData/Library")
+    data_root = resolve_data_path(config)
+    library_root = resolve_data_path(config, "SoloData", "Library")
     store = SoloLibraryStore(library_root, data_root)
 
     if args.command == "status" or args.dry_run:

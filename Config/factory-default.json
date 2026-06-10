@@ -4,13 +4,7 @@
     "host": "127.0.0.1"
   },
   "paths": {
-    "dataRoot": "./Data",
-    "soloDataFeedsRoot": "./Data/SoloData/Feeds",
-    "soloDataLibraryRoot": "./Data/SoloData/Library",
-    "soloDataReferenceRoot": "./Data/SoloData/Reference",
-    "soloDataRAGRoot": "./Data/SoloData/RAG",
-    "soloDataGraphRoot": "./Data/SoloData/Graph",
-    "soloCodeWorkspaceRoot": "."
+    "dataRoot": "C:/Util/GithubRepos/Solo_wc/Data"
   },
   "services": {
     "solohub": {

@@ -485,3 +485,1305 @@ INFO:     127.0.0.1:53794 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modifie
 INFO:     127.0.0.1:53794 - "GET /api/snapshot HTTP/1.1" 200 OK
 INFO:     127.0.0.1:53794 - "GET /api/articles/object-oriented%20programming HTTP/1.1" 200 OK
 INFO:     127.0.0.1:50428 - "GET /api/articles/object-oriented%20programming/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60776 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60776 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56175 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52954 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52227 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54454 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64334 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54828 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60479 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58474 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54663 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61428 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58878 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50620 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56951 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62406 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64768 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58566 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51214 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57262 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56653 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63146 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61129 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64762 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51608 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52335 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49159 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60187 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60662 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65143 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49255 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53638 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62079 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51745 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51450 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65433 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62116 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60290 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60290 - "GET /common/framework/core/font-styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61378 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51526 - "GET /common/framework/core/line-edit.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /common/framework/core/text-button.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50489 - "GET /common/framework/core/icon-button.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60290 - "GET /common/framework/core/text-label.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58955 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61378 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61378 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58955 - "GET /common/framework/js/checkbox.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50489 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60290 - "GET /common/framework/js/dom.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /common/framework/js/line-edit.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51526 - "GET /common/framework/js/text-area.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50489 - "GET /common/framework/js/layout-components.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58955 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:61378 - "GET /common/framework/js/text-button.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60290 - "GET /common/framework/js/version.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51526 - "GET /common/framework/js/color-registry.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /common/framework/js/icon.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /ui/page.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51526 - "GET /common/assets/icons/action.svg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /common/assets/icons/preview.svg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:59763 - "GET /ui/articles/Algebra HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59763 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59763 - "GET /api/articles/Algebra HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51526 - "GET /api/articles/Algebra/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56815 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60767 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55293 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54143 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58186 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59216 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55755 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58517 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57835 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65340 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64010 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64813 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51074 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59029 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57421 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65458 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64511 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63835 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65403 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54713 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51529 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63958 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [3760]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64168 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64509 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61374 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54635 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54589 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51484 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51485 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56530 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62739 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62768 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57560 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52663 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57283 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54876 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57527 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54928 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51147 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52878 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64616 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54667 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52411 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51077 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56186 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50070 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60752 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49681 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51867 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57209 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54720 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60408 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56947 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64021 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51597 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65326 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55425 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52046 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55693 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59993 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54904 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50174 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60311 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49684 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58782 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49212 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57793 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57813 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60326 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60929 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62499 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62974 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57039 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50285 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61288 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56032 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56073 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56490 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53040 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54910 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62001 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56925 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56924 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59249 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62058 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57522 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55897 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56498 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59494 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64242 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50657 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57250 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60952 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52526 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51552 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52862 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55986 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54749 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58197 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61117 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53393 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53395 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53394 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59903 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3760]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [40084]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60996 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57481 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59119 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53364 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50833 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49697 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64058 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59408 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59012 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55320 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [40084]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [17204]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49968 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60027 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62004 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64119 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49317 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64734 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51214 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51365 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56320 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56322 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56440 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56441 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53509 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53510 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65087 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65088 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62967 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62968 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49219 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49221 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61032 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61033 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63715 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63717 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61686 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61688 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52353 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54622 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61932 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61939 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59943 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58243 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62576 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62577 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57223 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64700 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51637 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51639 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65453 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64865 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53677 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53675 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53657 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59202 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50161 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50162 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62433 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58220 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56550 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56552 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57787 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55049 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59568 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53971 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52005 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62148 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51438 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51094 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53832 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53084 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49683 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59834 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55648 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55698 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60782 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55752 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58729 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49980 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62971 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60441 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63902 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57313 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54790 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54789 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59950 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59958 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62802 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62803 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60971 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60978 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53318 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53319 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52565 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52572 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57207 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57206 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52487 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60183 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60421 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49270 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52889 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54234 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64258 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55486 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56330 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56015 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60249 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51486 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64426 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49315 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60268 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58442 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58462 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64507 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64514 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60675 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49990 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49991 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55571 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64276 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64275 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50446 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50447 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59054 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59055 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53506 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53507 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53605 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53606 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52275 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52278 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62333 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54848 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55937 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57003 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49687 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54399 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57946 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57947 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63619 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53485 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56300 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55209 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49170 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62735 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65235 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52049 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55275 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49401 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61907 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61502 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62296 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62903 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65142 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63635 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60216 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53079 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62039 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55373 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53561 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49205 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54271 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53648 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56702 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56849 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63927 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64967 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50070 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63971 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51580 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52016 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52953 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60655 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54721 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60738 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62052 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62023 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56445 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58939 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50325 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53900 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49743 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62366 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53304 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60189 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65206 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51651 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65058 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58486 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63742 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63538 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63755 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55326 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53411 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60804 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60805 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58958 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58957 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58277 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58279 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60430 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60429 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60739 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60740 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62145 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62144 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61135 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61134 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51992 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51994 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56592 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56591 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51736 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51735 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61722 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61723 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52350 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52362 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57067 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57066 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56465 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53832 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53839 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62988 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62989 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51875 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51876 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57129 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57130 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62343 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62344 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57400 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57399 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63528 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63529 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51658 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51657 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52354 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52353 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54996 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54997 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49684 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49683 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59468 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59467 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52171 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52172 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50628 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50629 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51005 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61039 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61040 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52479 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52480 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63558 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63559 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57120 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57121 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55899 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53161 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53160 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56725 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56726 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50932 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50931 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52201 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52200 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62049 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62050 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53209 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53211 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53535 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53536 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60093 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60092 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49301 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49302 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64691 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64692 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65367 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65368 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50867 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50868 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51375 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51376 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60405 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60406 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56375 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56376 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52375 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52374 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53625 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53626 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64955 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64956 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61668 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61669 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59209 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59208 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57233 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57234 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51104 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54645 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54667 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58576 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64121 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52500 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54159 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52153 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61336 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60105 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62589 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58965 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49348 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62905 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62682 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65115 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57603 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64742 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60468 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59671 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56255 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51319 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64117 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64124 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49931 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59475 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50838 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63754 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60155 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53989 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52658 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50653 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51586 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50071 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60734 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52660 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53580 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56815 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62477 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58121 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57817 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64897 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62393 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63154 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56748 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51106 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54791 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [41584]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:62754 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54787 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54651 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65471 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49670 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62043 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60257 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55195 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57525 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63237 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64921 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50754 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58807 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53823 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53574 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57621 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53702 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63665 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61071 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54869 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63011 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51706 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55431 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52883 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63497 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64509 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63837 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55842 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63138 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60439 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55478 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61533 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56590 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53828 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62556 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59497 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64499 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54449 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57441 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49802 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59938 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49333 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51043 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54285 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59407 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56654 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53310 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57051 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58673 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58165 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61667 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63238 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50432 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55819 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60437 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65112 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65295 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60120 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58637 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65469 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50853 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65522 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65449 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63798 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57250 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54667 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51375 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55722 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51274 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61646 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63288 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62374 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61198 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64326 - "GET /status HTTP/1.1" 200 OK
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [3684]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55624 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49829 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49830 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49832 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49833 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54046 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54045 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63226 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63227 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52921 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52920 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61807 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61808 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60026 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60027 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50814 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50815 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53766 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53987 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53988 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55003 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55002 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51460 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49906 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59160 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59159 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59337 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59334 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56909 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56910 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64851 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64850 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50691 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50690 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55395 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55396 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59275 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59274 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55688 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55689 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51576 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51577 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52781 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59647 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56656 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56657 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61996 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61997 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61474 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61473 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60714 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60713 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57226 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57225 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56027 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56028 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50239 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50238 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55923 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55924 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65329 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65330 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59222 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60458 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60457 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51384 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51385 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54861 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54860 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51539 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51538 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54910 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54911 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53278 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53279 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60540 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60541 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49695 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49696 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53315 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53314 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57391 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57392 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63891 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63892 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59030 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59031 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53268 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53267 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63625 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63626 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63642 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52440 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52439 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53022 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53021 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51976 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51975 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50548 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65263 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60540 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57410 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52842 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3684]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [2848]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:62591 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52886 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59501 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50688 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59173 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50136 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61034 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50082 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51178 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56143 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53670 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59392 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55494 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51276 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54611 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54610 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49253 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49254 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63917 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63918 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64788 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64789 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57891 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57890 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56045 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56048 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56711 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56710 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54067 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54066 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59920 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61142 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61143 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2848]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [6584]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55704 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53744 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53745 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58418 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58417 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58420 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58421 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64390 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64391 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56328 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56329 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52618 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49694 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49695 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53675 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53676 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61530 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53654 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54135 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54137 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50976 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50977 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64707 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64706 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50096 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50095 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54150 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54149 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53137 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53136 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58139 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58138 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57232 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57233 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60045 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60044 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49699 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49700 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53854 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53855 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56860 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56859 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49810 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49809 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51821 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51822 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62624 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62625 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56844 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56843 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55862 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55863 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57037 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57036 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56199 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56197 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50854 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50856 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50855 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50888 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54091 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54092 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54093 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59890 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59892 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59893 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49706 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49704 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49705 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50751 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50752 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50753 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52059 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52061 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52062 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52515 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52516 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52517 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63523 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63524 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63522 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51778 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51780 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51779 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55244 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55247 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55246 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53606 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53608 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53609 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58334 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58332 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58333 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52659 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52660 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54409 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54412 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54411 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54410 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57285 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57284 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6584]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [15424]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55351 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59230 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59231 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60447 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60448 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63090 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63091 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52204 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52203 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59891 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59890 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60317 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60318 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59302 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59301 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53488 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64221 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64220 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60643 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56465 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58994 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52631 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52792 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52793 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64538 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64539 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61999 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62001 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51114 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56322 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56320 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57355 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57354 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55012 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55013 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54454 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54453 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57834 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57835 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49691 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49690 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62035 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62036 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50190 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50191 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63229 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63239 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63238 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54582 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54581 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51003 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51004 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55409 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55410 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58363 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58364 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62686 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62687 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55326 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55327 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52829 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52827 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50854 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50855 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59956 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59955 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53146 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52662 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52663 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61020 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61022 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62756 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62757 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56299 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56298 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61520 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61521 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63551 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63552 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53765 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53399 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50948 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57325 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65079 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50733 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51557 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61637 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58977 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57007 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61093 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61094 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62502 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60502 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60503 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63447 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63446 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58643 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58642 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58982 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58983 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59851 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59850 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51486 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51487 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50752 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50753 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56126 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56128 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53984 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53983 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15424]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [24948]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61975 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64241 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64242 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56918 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56917 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58930 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58931 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60902 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60901 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64414 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64415 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51834 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51833 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61571 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61570 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65399 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65400 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49837 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49836 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64903 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64904 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57768 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57767 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61577 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61576 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56102 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56101 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65273 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65274 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50959 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50958 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50074 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50073 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52484 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52483 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51918 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51919 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56760 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56759 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53947 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53946 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62631 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57553 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58919 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58920 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58931 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58932 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64572 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64573 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54115 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49828 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49827 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61420 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61421 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61275 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61274 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49334 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49333 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60762 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60763 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58499 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58498 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56352 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56353 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53696 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53697 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50531 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50530 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62917 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62918 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60661 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60662 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51907 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51908 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60668 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60667 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53442 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53443 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64094 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51170 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51171 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60912 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60911 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53595 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53596 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49254 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /common/framework/core/font-styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49740 - "GET /common/framework/core/line-edit.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /common/framework/core/text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55982 - "GET /common/framework/core/text-label.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /common/framework/core/icon-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49254 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /ui/solo-reference.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /common/framework/js/dom.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49254 - "GET /common/framework/js/checkbox.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49740 - "GET /common/framework/js/text-area.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55982 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /common/framework/js/line-edit.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49740 - "GET /common/framework/js/layout-components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /common/framework/js/text-utils.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49254 - "GET /common/framework/js/text-button.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /common/framework/js/panels.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /common/framework/js/color-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55982 - "GET /common/framework/js/icon.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49740 - "GET /common/framework/js/version.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55982 - "GET /common/framework/js/panel-separators.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /ui/page.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55982 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55982 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /common/assets/icons/circuit-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /common/assets/icons/file-alt-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49740 - "GET /common/assets/icons/chats-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /common/assets/icons/code-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49254 - "GET /common/assets/icons/preview.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55982 - "GET /common/assets/icons/database-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /common/assets/icons/action.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57005 - "GET /common/assets/fonts/RobotoMono-Regular.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53147 - "GET /common/assets/fonts/RobotoMono-SemiBold.ttf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56069 - "GET /ui/articles/2D%20computer%20graphics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56069 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60954 - "GET /api/articles/2D%20computer%20graphics/links HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56069 - "GET /api/articles/2D%20computer%20graphics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56069 - "GET /common/assets/icons/graduation-hat-alt-1-svgrepo-com.svg HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24948]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [22480]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56254 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22480]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [9408]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51592 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9408]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [18160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51905 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49310 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49311 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51079 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51078 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58192 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58193 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50138 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50139 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56954 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56953 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18160]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [24568]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49710 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24568]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [3788]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50777 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3788]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [29316]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58941 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29316]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [8628]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55572 - "GET /status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65390 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55390 - "GET /common/framework/core/basic-layout.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65390 - "GET /common/framework/core/font-styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50548 - "GET /common/framework/core/line-edit.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55912 - "GET /common/framework/core/text-button.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60634 - "GET /common/framework/core/text-label.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50551 - "GET /common/framework/core/icon-button.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55390 - "GET /common/framework/core/icon-text-button.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65390 - "GET /ui/solo-reference.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65390 - "GET /common/framework/js/basic-layout.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55912 - "GET /common/framework/js/line-edit.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55390 - "GET /common/framework/js/checkbox.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50548 - "GET /common/framework/js/text-area.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50551 - "GET /common/framework/js/dom.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60634 - "GET /common/framework/js/icon-text-button.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55390 - "GET /common/framework/js/text-utils.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55912 - "GET /common/framework/js/text-button.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50548 - "GET /common/framework/js/layout-components.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60634 - "GET /common/framework/js/color-registry.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55390 - "GET /common/framework/js/version.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50551 - "GET /common/framework/js/panels.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65390 - "GET /common/framework/js/icon.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50551 - "GET /common/framework/js/icon-registry.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65390 - "GET /common/framework/js/panel-separators.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65390 - "GET /ui/page.json HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65390 - "GET /api/snapshot HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50551 - "GET /common/assets/icons/action.svg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65390 - "GET /common/assets/icons/preview.svg HTTP/1.1" 304 Not Modified
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8628]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [9300]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56324 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9300]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [21272]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54798 - "GET /status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21272]
+SoloReference: http://127.0.0.1:9743/ui
+INFO:     Started server process [15296]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9743 (Press CTRL+C to quit)
+INFO:     127.0.0.1:62196 - "GET /status HTTP/1.1" 200 OK

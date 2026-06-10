@@ -1,49 +1,41 @@
 {
   "header": {
     "title": "SoloGraph",
-    "subtitle": "Concept vocabulary and relation graph",
+    "subtitle": "Concept vocabulary and connection graph",
     "actions": [
-      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#8bd5ff", "action": "refresh" }
+      { "type": "iconTextButton", "icon": "preview", "text": "Refresh", "color": "#8bd5ff", "action": "refresh" },
+      { "type": "iconTextButton", "icon": "export", "text": "Export", "color": "#63d9a4", "action": "export" },
+      { "type": "iconTextButton", "icon": "next", "text": "Import", "color": "#f0c060", "action": "import" }
     ]
   },
-  "shell": { "fullWidth": true },
+  "shell": {
+    "fullWidth": true,
+    "viewport": true,
+    "viewportLock": true
+  },
   "content": [
     {
       "type": "panels",
+      "columns": 2,
+      "resizable": true,
+      "left": 38,
+      "minPanelPixels": 260,
+      "storageKey": "solograph.main-panels",
       "items": [
         {
-          "title": "Status",
-          "items": [
-            { "type": "graphStatus" }
-          ]
+          "type": "panel",
+          "title": "Vocab",
+          "viewport": true,
+          "className": "page-panel--scroll",
+          "items": [{ "type": "graphVocab" }]
         },
         {
-          "title": "Paths",
-          "items": [
-            { "type": "graphPaths" }
-          ]
+          "type": "panel",
+          "title": "Connections",
+          "viewport": true,
+          "className": "page-panel--scroll",
+          "items": [{ "type": "graphConnections" }]
         }
-      ]
-    },
-    {
-      "type": "panel",
-      "title": "Search",
-      "items": [
-        { "type": "graphSearch" }
-      ]
-    },
-    {
-      "type": "panel",
-      "title": "Recent Connections",
-      "items": [
-        { "type": "graphConnections" }
-      ]
-    },
-    {
-      "type": "panel",
-      "title": "Recent Vocab",
-      "items": [
-        { "type": "graphVocab" }
       ]
     }
   ]

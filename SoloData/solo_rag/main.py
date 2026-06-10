@@ -23,7 +23,7 @@ if str(SOLO_DATA_ROOT) not in sys.path:
     sys.path.insert(0, str(SOLO_DATA_ROOT))
 
 from common_utils.compression import compress_text, decompress_text  # noqa: E402
-from common_utils.config import load_config, resolve_solo_path, service_host_port  # noqa: E402
+from common_utils.config import load_config, resolve_data_path, service_host_port  # noqa: E402
 from common_utils.service import parse_service_args, query_int, query_text, run_http_service  # noqa: E402
 from common_utils.sqlite import compute_word_count, fts_build_query, sqlite_connection  # noqa: E402
 from common_utils.web import send_json  # noqa: E402
@@ -395,8 +395,7 @@ def main() -> int:
     host, port = service_host_port(config, "solorag", 9744)
     host = args.host or host
     port = int(args.port or port)
-    paths = config.get("paths") if isinstance(config.get("paths"), dict) else {}
-    store = SoloRAGStore(resolve_solo_path(paths.get("soloDataRAGRoot"), "./Data/SoloData/RAG"))
+    store = SoloRAGStore(resolve_data_path(config, "SoloData", "RAG"))
     if args.command == "status" or args.dry_run:
         print(store.status())
         return 0

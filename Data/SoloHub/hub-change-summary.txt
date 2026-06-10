@@ -1,0 +1,38 @@
+SoloHub change summary
+Date: 2026-06-09
+
+Files changed
+- SoloHub/code/main.py
+- SoloHub/ui/solo-hub.js
+
+What changed
+1. Added a SoloHub-owned REST endpoint at /api/reports/solostate.
+2. The new endpoint builds the SoloState panel content inside SoloHub instead of relying on the page to directly use SoloState report text.
+3. The endpoint returns:
+   - title
+   - source
+   - content
+   - services.soloState
+   - services.soloAgent
+4. The SoloHub UI now refreshes both:
+   - /api/snapshot
+   - /api/reports/solostate
+5. The SoloState panel title bar labels now come from the Hub report API.
+6. The SoloState panel body now renders the Hub report API content.
+7. SoloHub response writes still ignore disconnect-style socket errors so cancelled browser requests do not dump stack traces.
+8. SoloHub stop logic for managed Windows child processes still uses tree-aware termination so SoloState is not left behind when Hub exits.
+
+Validation run
+- Started SoloHub from this repo on http://127.0.0.1:9790/
+- Called GET /api/reports/solostate
+- Result:
+  title: SoloState Report
+  source: SoloHub
+  content: SoloAgent is running, but SoloState is stopped, so there is no report content yet.
+  soloState: Stopped
+  soloAgent: External
+
+Why the panel looked empty before
+- The previous panel content depended on SoloState report data being available.
+- When SoloState was stopped, there was no report payload to render.
+- The new Hub API makes that state explicit and always returns panel content.

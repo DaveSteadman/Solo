@@ -249,11 +249,11 @@ class SoloDataGateway:
         self.config = config
         self.data_root = resolve_solo_path(paths.get("dataRoot"), "./Data")
         self.service_data_root = self.data_root / "SoloData"
-        self.feeds_root = resolve_solo_path(paths.get("soloDataFeedsRoot"), "./Data/SoloData/Feeds")
-        self.library_root = resolve_solo_path(paths.get("soloDataLibraryRoot"), "./Data/SoloData/Library")
-        self.reference_root = resolve_solo_path(paths.get("soloDataReferenceRoot"), "./Data/SoloData/Reference")
-        self.rag_root = resolve_solo_path(paths.get("soloDataRAGRoot"), "./Data/SoloData/RAG")
-        self.graph_root = resolve_solo_path(paths.get("soloDataGraphRoot"), "./Data/SoloData/Graph")
+        self.feeds_root = self.data_root / "SoloData" / "Feeds"
+        self.library_root = self.data_root / "SoloData" / "Library"
+        self.reference_root = self.data_root / "SoloData" / "Reference"
+        self.rag_root = self.data_root / "SoloData" / "RAG"
+        self.graph_root = self.data_root / "SoloGraph"
         self.log_dir = self.service_data_root / "logs"
         self.feeds_base_url = service_base_url(config, "solofeeds", 9742)
         self.library_base_url = service_base_url(config, "sololibrary", 9741)

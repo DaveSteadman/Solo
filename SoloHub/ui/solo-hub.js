@@ -10,11 +10,13 @@ import * as layout from "/common/framework/js/layout-components.js";
 const mount = document.querySelector("#app");
 let pageSpec = null;
 let snapshot = null;
+let hubReport = "";
 
 const controlFactories = {
     controlRow: (spec) => createControlRow(spec, createControl),
     heading: createHeading,
     hubPaths: createHubPaths,
+    hubReport: createHubReport,
     hubServiceList: createHubServiceList,
     hubSummary: createHubSummary,
     iconButton: createActionIconButton,
@@ -27,9 +29,8 @@ const controlFactories = {
 
 async function boot() {
     pageSpec = await fetchJson("/ui/page.json");
-    snapshot = await fetchJson("/api/snapshot");
-    render();
-    window.setInterval(refreshSnapshot, 2500);
+    await refreshData();
+    window.setInterval(refreshData, 2500);
 }
 
 async function fetchJson(url, options) {
@@ -40,8 +41,69 @@ async function fetchJson(url, options) {
     return response.json();
 }
 
+async function fetchText(url, options) {
+    const response = await fetch(url, options);
+    if (!response.ok) {
+        throw new Error(`${url} returned HTTP ${response.status}`);
+    }
+    return response.text();
+}
+
 function render() {
-    mount.replaceChildren(createPage(pageSpec, createControl));
+    mount.replaceChildren(createPage(createViewSpec(), createControl));
+}
+
+function createViewSpec() {
+    if (!pageSpec) {
+        return { header: {}, content: [] };
+    }
+
+    return {
+        ...pageSpec,
+        content: decorateBlocks(pageSpec.content ?? [])
+    };
+}
+
+function decorateBlocks(blocks) {
+    return blocks.map((block) => decorateBlock(block));
+}
+
+function decorateBlock(block) {
+    if (!block || typeof block !== "object") {
+        return block;
+    }
+
+    const decorated = { ...block };
+    if (Array.isArray(block.items)) {
+        decorated.items = block.items.map((item) => decorateBlock(item));
+    }
+    if (isHubReportPanel(block)) {
+        const soloAgent = getServiceBySlug("soloagent");
+        decorated.actions = [
+            createServiceStateLabel("SoloAgent", soloAgent)
+        ];
+    }
+    return decorated;
+}
+
+function isHubReportPanel(block) {
+    return Array.isArray(block?.items) && block.items.some((item) => item?.type === "hubReport");
+}
+
+function createServiceStateLabel(label, service) {
+    const online = isServiceOnline(service);
+    return {
+        type: "textLabel",
+        text: `${label}: ${online ? "Running" : "Stopped"}`,
+        color: online ? "#63d9a4" : "#ff8fab"
+    };
+}
+
+function isServiceOnline(service) {
+    if (!service) {
+        return false;
+    }
+    return Boolean(service.reachable || service.running || service.state === "external");
 }
 
 function createControl(spec) {
@@ -75,17 +137,17 @@ function wireAction(button, action) {
 
 async function runHubAction(action) {
     if (action === "refresh") {
-        await refreshSnapshot();
+        await refreshData();
         return;
     }
     if (action === "startAuto") {
         await postJson("/api/services/start-auto");
-        await refreshSnapshot();
+        await refreshData();
         return;
     }
     if (action === "stopAll") {
         await postJson("/api/services/stop-all");
-        await refreshSnapshot();
+        await refreshData();
         return;
     }
     if (action.startsWith("service:")) {
@@ -96,15 +158,20 @@ async function runHubAction(action) {
 
 async function runServiceAction(slug, action) {
     await postJson(`/api/services/${encodeURIComponent(slug)}/${action}`);
-    await refreshSnapshot();
+    await refreshData();
 }
 
 async function postJson(url) {
     return fetchJson(url, { method: "POST" });
 }
 
-async function refreshSnapshot() {
-    snapshot = await fetchJson("/api/snapshot");
+async function refreshData() {
+    const [nextSnapshot, nextReport] = await Promise.all([
+        fetchJson("/api/snapshot"),
+        fetchText("/report")
+    ]);
+    snapshot = nextSnapshot;
+    hubReport = nextReport;
     render();
 }
 
@@ -198,6 +265,30 @@ function selectHubServiceIcon(slug) {
 
     return icons[slug] ?? "agent";
 }
+
+function createHubReport() {
+    if (!snapshot) {
+        return layout.normalText("Hub report is loading.");
+    }
+
+    const soloAgent = getServiceBySlug("soloagent");
+
+    const details = layout.metadataStrip([
+        ["SoloAgent", soloAgent?.stateLabel ?? "Unknown"],
+        ["Source", "SoloHub"],
+        ["Endpoint", "/report"]
+    ]);
+
+    return layout.stack([
+        details,
+        layout.preformatted(hubReport || "No report available.", { nowrap: true })
+    ]);
+}
+
+function getServiceBySlug(slug) {
+    return (snapshot?.services ?? []).find((service) => service.slug === slug) ?? null;
+}
+
 
 boot().catch((error) => {
     mount.replaceChildren(layout.shell([

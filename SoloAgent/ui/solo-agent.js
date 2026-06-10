@@ -69,14 +69,18 @@ boot().catch(renderFatal);
 
 async function boot() {
     state.pageSpec = await fetchJson("/ui/page.json");
+    await hydrateRemoteLayoutState();
     await refreshSnapshot();
     await loadCompletions();
     render();
     window.addEventListener("solo:panels-resize-start", () => {
         state.resizingPanels = true;
     });
-    window.addEventListener("solo:panels-resize-end", () => {
+    window.addEventListener("solo:panels-resize-end", (event) => {
         state.resizingPanels = false;
+        mirrorLayoutState(event.detail?.storageKey).catch(() => {
+            return;
+        });
     });
     window.setInterval(() => {
         if (!canAutoRender()) {
@@ -673,6 +677,83 @@ function promptPreview(text) {
         return normalized;
     }
     return `${normalized.slice(0, 32)}...`;
+}
+
+function hubUiStateBaseUrl() {
+    const protocol = window.location.protocol || "http:";
+    const hostname = window.location.hostname || "127.0.0.1";
+    return `${protocol}//${hostname}:9700/api/ui-state`;
+}
+
+async function hydrateRemoteLayoutState() {
+    const storageKeys = collectStorageKeys(state.pageSpec);
+    if (!storageKeys.length) {
+        return;
+    }
+    await Promise.all(storageKeys.map(loadRemoteLayoutState));
+}
+
+function collectStorageKeys(spec) {
+    const keys = new Set();
+
+    function visit(value) {
+        if (!value || typeof value !== "object") {
+            return;
+        }
+        if (typeof value.storageKey === "string" && value.storageKey.trim()) {
+            keys.add(value.storageKey.trim());
+        }
+        if (Array.isArray(value.items)) {
+            for (const item of value.items) {
+                visit(item);
+            }
+        }
+        if (Array.isArray(value.content)) {
+            for (const item of value.content) {
+                visit(item);
+            }
+        }
+    }
+
+    visit(spec);
+    return [...keys];
+}
+
+async function loadRemoteLayoutState(storageKey) {
+    try {
+        const response = await fetch(`${hubUiStateBaseUrl()}/${encodeURIComponent(storageKey)}`);
+        if (!response.ok) {
+            return;
+        }
+        const payload = await response.json();
+        if (payload?.value === undefined || payload?.value === null) {
+            return;
+        }
+        window.localStorage.setItem(storageKey, JSON.stringify(payload.value));
+    } catch {
+        return;
+    }
+}
+
+async function mirrorLayoutState(storageKey) {
+    if (!storageKey) {
+        return;
+    }
+    const raw = window.localStorage.getItem(storageKey);
+    if (!raw) {
+        return;
+    }
+    let value = null;
+    try {
+        value = JSON.parse(raw);
+    } catch {
+        return;
+    }
+    await fetch(`${hubUiStateBaseUrl()}/${encodeURIComponent(storageKey)}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ value })
+    });
 }
 
 async function fetchJson(url) {
